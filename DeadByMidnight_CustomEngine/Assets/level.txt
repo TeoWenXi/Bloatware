@@ -1,0 +1,103 @@
+{
+    "SceneName": "Scene 1",
+    "Var1?maybe gameobject count?": 10,
+    "String1": "HEllO",
+    "GameObjects": [
+        [
+            {
+                "Name": "Left Eye"
+            },
+            {
+				"Component": "Transform",
+				"Position": [
+					-1500,
+					2000,
+					0
+				],
+				"Scale": [
+					500,
+					500,
+					0
+				],
+				"Rotation": 0
+			},
+			{
+				"Component": "Renderer",
+				"ModelType": 5,
+				"ShaderName": "Basic"
+			},
+            {
+                "Component": "Collider",
+                "Size": [
+                    50,
+                    40
+                ],
+                "Type": "Box"
+            }
+        ],
+        [
+            {
+                "Name": "Right Eye"
+            },
+            {
+				"Component": "Transform",
+				"Position": [
+					1500,
+					2000,
+					0
+				],
+				"Scale": [
+					500,
+					500,
+					0
+				],
+				"Rotation": 0
+			},
+			{
+				"Component": "Renderer",
+				"ModelType": 5,
+				"ShaderName": "Basic"
+			},
+            {
+                "Component": "Collider",
+                "Size": [
+                    500,
+                    500
+                ],
+                "Type": "Box"
+            }
+        ],
+		[
+            {
+                "Name": "Mouth"
+            },
+            {
+				"Component": "Transform",
+				"Position": [
+					0,
+					-2000,
+					0
+				],
+				"Scale": [
+					1000,
+					250,
+					0
+				],
+				"Rotation": 0
+			},
+			{
+				"Component": "Renderer",
+				"ModelType": 4,
+				"ShaderName": "Basic"
+			},
+            {
+                "Component": "Collider",
+                "Size": [
+                    500,
+                    500
+                ],
+                "Type": "Box"
+            }
+        ]
+    ]
+}

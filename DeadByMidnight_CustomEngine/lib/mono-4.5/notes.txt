@@ -1,0 +1,5 @@
+https://nilssondev.com/mono-guide/book/introduction/necessary-files.html
+
+debug folder contains the built mono for debug(copy those to the build exe folder)
+//same for release
+mono contains the .NET Libraries (have to be mono/lib/4.5)

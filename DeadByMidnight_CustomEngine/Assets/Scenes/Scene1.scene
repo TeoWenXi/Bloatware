@@ -1,0 +1,99 @@
+{
+    "SceneName": "Scene1",
+	"BackgroundColor": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582,
+        1.0
+    ],
+    "EditorCameraSpeed": 483.2080078125,
+    "CameraThresholdHorizontal": [
+        0.0,
+        0.0,
+        1.0
+    ],
+    "CameraThresholdVertical": [
+        0.0,
+        0.0,
+        1.0
+    ],
+    "CameraWaypoints": [
+	],
+    "GameObjects": [
+        [
+            {
+                "Name": "",
+                "Prefab": ""
+            },
+            {
+                "Component": "Transform",
+                "Position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "LocalPosition": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    10.0,
+                    10.0,
+                    0.0
+                ],
+                "Rotation": 0.0
+            },
+            {
+                "Component": "Renderer",
+                "ModelType": 7,
+                "ShaderName": "BasicShader",
+                "TextureName": "placeholder",
+                "RenderLayer": 2,
+                "Enabled": true
+            }
+        ],
+	[
+            {
+                "Name": "FPSCounter",
+                "Prefab": ""
+            },
+            {
+                "Component": "Transform",
+                "Position": [
+                    0.0,
+                    85.0,
+                    50.0
+                ],
+                "LocalPosition": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": 0.0
+            },
+            {
+                "Component": "GameUITextHandler",
+                "Text": "",
+                "Font": "EvanstonTavern-1858Regular",
+                "FontSize": 10,
+                "Pos": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Color": [
+                    0.0,
+                    1.0,
+                    1.0
+                ],
+                "Alpha": 1.0
+            }
+        ]
+    ]
+}

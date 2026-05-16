@@ -1,0 +1,162 @@
+{
+    "Prefab": [
+        {
+            "Name": "HowToPlay Prefab",
+            "Prefab": "square"
+        },
+        {
+            "Component": "Transform",
+            "Position": [
+                166.0127716064453,
+                -48.720985412597656,
+                50.0
+            ],
+            "LocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Rotation": 0.0
+        },
+        {
+            "Component": "GameUIObjectHandler"
+        },
+        {
+            "Component": "SoundComponent",
+            "SoundName": "SFX_menu_open_new",
+            "Volume": 1.0,
+            "Pitch": 1.0
+        },
+        {
+            "Child": [
+                {
+                    "Name": "HowToPlay Background",
+                    "Prefab": ""
+                },
+                {
+                    "Component": "Transform",
+                    "Position": [
+                        166.0127716064453,
+                        -48.720985412597656,
+                        50.0
+                    ],
+                    "LocalPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        800.0,
+                        600.0,
+                        0.0
+                    ],
+                    "Rotation": 0.0
+                },
+                {
+                    "Component": "Renderer",
+                    "ModelType": 7,
+                    "ShaderName": "BasicShader",
+                    "TextureName": "Misc_PauseMenuOverlay",
+                    "RenderLayer": 4,
+                    "Enabled": true
+                }
+            ]
+        },
+        {
+            "Child": [
+                {
+                    "Name": "HowToPlay Body",
+                    "Prefab": "ExitMenu Prefab"
+                },
+                {
+                    "Component": "Transform",
+                    "Position": [
+                        167.0127716064453,
+                        -38.720985412597656,
+                        50.0
+                    ],
+                    "LocalPosition": [
+                        1.0,
+                        5.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        230.0,
+                        115.0,
+                        0.0
+                    ],
+                    "Rotation": 0.0
+                },
+                {
+                    "Component": "Renderer",
+                    "ModelType": 7,
+                    "ShaderName": "BasicShader",
+                    "TextureName": "HowToPlay_New",
+                    "RenderLayer": 4,
+                    "Enabled": true
+                }
+            ]
+        },
+        {
+            "Child": [
+                {
+                    "Name": "Return Button",
+                    "Prefab": ""
+                },
+                {
+                    "Component": "Transform",
+                    "Position": [
+                        173.0127716064453,
+                        -113.72098541259766,
+                        50.0
+                    ],
+                    "LocalPosition": [
+                        7.0,
+                        -50.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        250.0,
+                        15.0,
+                        0.0
+                    ],
+                    "Rotation": 0.0
+                },
+                {
+                    "Component": "GameUITextHandler",
+                    "Text": "Return",
+                    "Font": "ConduitITCBold",
+                    "FontSize": 10,
+                    "Pos": [
+                        -23.0,
+                        -4.0,
+                        0.0
+                    ],
+                    "Color": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Alpha": 1.0
+                },
+                {
+                    "Component": "SoundComponent",
+                    "SoundName": "SFX_menu_select_new",
+                    "Volume": 0.75,
+                    "Pitch": 1.0
+                },
+                {
+                    "Component": "ButtonWrapper",
+                    "ButtonType": 12,
+                    "ButtonOrderPosition": -1,
+                    "InputField": "PauseMenu Prefab"
+                }
+            ]
+        }
+    ]
+}

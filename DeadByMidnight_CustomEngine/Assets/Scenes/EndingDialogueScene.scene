@@ -1,0 +1,158 @@
+{
+    "SceneName": "EndingDialogueScene",
+    "BackgroundColor": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582,
+        1.0
+    ],
+    "EditorCameraSpeed": -1.0,
+    "CameraThresholdHorizontal": [
+        0.0,
+        0.0,
+        1.0
+    ],
+    "CameraThresholdVertical": [
+        0.0,
+        0.0,
+        1.0
+    ],
+    "CameraWaypoints": [
+        {
+            "Position": [
+                120.0,
+                -37.0,
+                50.0
+            ],
+            "Zoom": 1.0,
+            "TrackPlayer": false,
+            "PlayerSpawnPos": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "HoldVertical": false,
+            "HoldHorizontal": false,
+            "ClampEnabled": false,
+            "ClampVertRange": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "ClampHoriRange": [
+                0.0,
+                0.0,
+                1.0
+            ]
+        }
+    ],
+    "GameObjects": [
+        [
+            {
+                "Name": "Sprite Prefab",
+                "Prefab": "sprite"
+            },
+            {
+                "Component": "Transform",
+                "Position": [
+                    37.0670280456543,
+                    -77.31501770019531,
+                    50.0
+                ],
+                "LocalPosition": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    10.0,
+                    10.0,
+                    0.0
+                ],
+                "Rotation": 0.0
+            },
+            {
+                "Component": "SoundComponent",
+                "SoundName": "LOOP_IntroCutscene",
+                "Volume": 0.5,
+                "Pitch": 1.0
+            },
+            {
+                "Component": "PlayOnceSoundComponent"
+            }
+        ],
+        [
+            {
+                "Name": "TerminalSound",
+                "Prefab": "sprite"
+            },
+            {
+                "Component": "Transform",
+                "Position": [
+                    37.0670280456543,
+                    -77.31501770019531,
+                    50.0
+                ],
+                "LocalPosition": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    10.0,
+                    10.0,
+                    0.0
+                ],
+                "Rotation": 0.0
+            },
+            {
+                "Component": "SoundComponent",
+                "SoundName": "SFX_TerminalTextSound1",
+                "Volume": 0.5,
+                "Pitch": 1.0
+            }
+        ],
+	    [
+            {
+                "Name": "FPSCounter",
+                "Prefab": ""
+            },
+            {
+                "Component": "Transform",
+                "Position": [
+                    0.0,
+                    85.0,
+                    50.0
+                ],
+                "LocalPosition": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": 0.0
+            },
+            {
+                "Component": "GameUITextHandler",
+                "Text": "",
+                "Font": "EvanstonTavern-1858Regular",
+                "FontSize": 10,
+                "Pos": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Color": [
+                    0.0,
+                    1.0,
+                    1.0
+                ],
+                "Alpha": 1.0
+            }
+        ]
+    ]
+}

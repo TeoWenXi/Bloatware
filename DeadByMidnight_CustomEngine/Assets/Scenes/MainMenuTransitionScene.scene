@@ -1,0 +1,566 @@
+{
+    "SceneName": "MainMenuTransitionScene",
+    "BackgroundColor": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582,
+        1.0
+    ],
+    "EditorCameraSpeed": -1.0,
+    "CameraThresholdHorizontal": [
+        0.0,
+        0.0,
+        1.0
+    ],
+    "CameraThresholdVertical": [
+        0.0,
+        0.0,
+        1.0
+    ],
+    "CameraWaypoints": [
+        {
+            "Position": [
+                120.0,
+                -37.0,
+                50.0
+            ],
+            "Zoom": 1.0,
+            "TrackPlayer": false,
+            "PlayerSpawnPos": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "HoldVertical": false,
+            "HoldHorizontal": false,
+            "ClampEnabled": false,
+            "ClampVertRange": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "ClampHoriRange": [
+                0.0,
+                0.0,
+                1.0
+            ]
+        }
+    ],
+    "GameObjects": [
+        [
+            {
+                "Name": "PressToStart Prefab",
+                "Prefab": "PressToStart Prefab"
+            },
+            {
+                "Component": "Transform",
+                "Position": [
+                    0.0,
+                    0.0,
+                    50.0
+                ],
+                "LocalPosition": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": 0.0
+            },
+            {
+                "Component": "GameUIObjectHandler"
+            },
+            {
+                "Child": [
+                    {
+                        "Name": "PressToStart Background",
+                        "Prefab": ""
+                    },
+                    {
+                        "Component": "Transform",
+                        "Position": [
+                            0.0,
+                            0.0,
+                            50.0
+                        ],
+                        "LocalPosition": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Scale": [
+                            365.0,
+                            365.0,
+                            0.0
+                        ],
+                        "Rotation": 0.0
+                    },
+                    {
+                        "Component": "Renderer",
+                        "ModelType": 7,
+                        "ShaderName": "MainMenuShader",
+                        "TextureName": "MM_BG_BG",
+                        "RenderLayer": 2,
+                        "Enabled": true,
+                        "AlphaValue": -1.0,
+                        "CustomAlpha": false
+                    }
+                ]
+            },
+            {
+                "Child": [
+                    {
+                        "Name": "PressToStart Button",
+                        "Prefab": ""
+                    },
+                    {
+                        "Component": "Transform",
+                        "Position": [
+                            130.0,
+                            5.0,
+                            50.0
+                        ],
+                        "LocalPosition": [
+                            130.0,
+                            5.0,
+                            0.0
+                        ],
+                        "Scale": [
+                            80.0,
+                            20.0,
+                            1.0
+                        ],
+                        "Rotation": 0.0
+                    },
+                    {
+                        "Component": "Renderer",
+                        "ModelType": 7,
+                        "ShaderName": "ButtonUIShader",
+                        "TextureName": "whitesquare",
+                        "RenderLayer": 2,
+                        "Enabled": true,
+                        "AlphaValue": -1.0,
+                        "CustomAlpha": false
+                    },
+                    {
+                        "Component": "GameUITextHandler",
+                        "Text": "START GAME",
+                        "Font": "ConduitITCBold",
+                        "FontSize": 11,
+                        "Pos": [
+                            -23.0,
+                            -3.0,
+                            0.0
+                        ],
+                        "Color": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Alpha": 1.0,
+                        "RenderLayer": 4
+                    },
+                    {
+                        "Component": "SoundComponent",
+                        "SoundName": "SFX_menu_select_new",
+                        "Volume": 1.0,
+                        "Pitch": 1.0
+                    },
+                    {
+                        "Component": "ButtonWrapper",
+                        "ButtonType": 0,
+                        "ButtonOrderPosition": 0,
+                        "InputField": "MainMenuTransitionScene",
+                        "ChannelType": 0
+                    }
+                ]
+            },
+            {
+                "Child": [
+                    {
+                        "Name": "PressToStart Title",
+                        "Prefab": ""
+                    },
+                    {
+                        "Component": "Transform",
+                        "Position": [
+                            -165.0,
+                            -5.0,
+                            50.0
+                        ],
+                        "LocalPosition": [
+                            -165.0,
+                            -5.0,
+                            0.0
+                        ],
+                        "Scale": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": 0.0
+                    },
+                    {
+                        "Component": "GameUITextHandler",
+                        "Text": "BLOATWARE",
+                        "Font": "EvanstonTavern-1858Regular",
+                        "FontSize": 21,
+                        "Pos": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Color": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Alpha": 1.0,
+                        "RenderLayer": 4
+                    }
+                ]
+            },
+            {
+                "Child": [
+                    {
+                        "Name": "Exit Game Button",
+                        "Prefab": ""
+                    },
+                    {
+                        "Component": "Transform",
+                        "Position": [
+                            130.0,
+                            -85.0,
+                            50.0
+                        ],
+                        "LocalPosition": [
+                            130.0,
+                            -85.0,
+                            0.0
+                        ],
+                        "Scale": [
+                            80.0,
+                            20.0,
+                            1.0
+                        ],
+                        "Rotation": 0.0
+                    },
+                    {
+                        "Component": "Renderer",
+                        "ModelType": 7,
+                        "ShaderName": "ButtonUIShader4",
+                        "TextureName": "whitesquare",
+                        "RenderLayer": 2,
+                        "Enabled": true,
+                        "AlphaValue": -1.0,
+                        "CustomAlpha": false
+                    },
+                    {
+                        "Component": "GameUITextHandler",
+                        "Text": "QUIT GAME",
+                        "Font": "ConduitITCBold",
+                        "FontSize": 11,
+                        "Pos": [
+                            -23.0,
+                            -3.0,
+                            0.0
+                        ],
+                        "Color": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Alpha": 1.0,
+                        "RenderLayer": 4
+                    },
+                    {
+                        "Component": "SoundComponent",
+                        "SoundName": "SFX_MenuSelectNew",
+                        "Volume": 1.0,
+                        "Pitch": 1.0
+                    },
+                    {
+                        "Component": "ButtonWrapper",
+                        "ButtonType": 0,
+                        "ButtonOrderPosition": 3,
+                        "InputField": "ExitMenuMain Prefab",
+                        "ChannelType": 0
+                    }
+                ]
+            },
+            {
+                "Child": [
+                    {
+                        "Name": "Instruction Text 1",
+                        "Prefab": ""
+                    },
+                    {
+                        "Component": "Transform",
+                        "Position": [
+                            -172.0,
+                            -75.0,
+                            50.0
+                        ],
+                        "LocalPosition": [
+                            -172.0,
+                            -75.0,
+                            0.0
+                        ],
+                        "Scale": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": 0.0
+                    },
+                    {
+                        "Component": "GameUITextHandler",
+                        "Text": "Press 'Enter' to select",
+                        "Font": "EvanstonTavern-1858Regular",
+                        "FontSize": 10,
+                        "Pos": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Color": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Alpha": 1.0,
+                        "RenderLayer": 4
+                    }
+                ]
+            },
+            {
+                "Child": [
+                    {
+                        "Name": "Instruction Text 2",
+                        "Prefab": ""
+                    },
+                    {
+                        "Component": "Transform",
+                        "Position": [
+                            -172.0,
+                            -87.0,
+                            50.0
+                        ],
+                        "LocalPosition": [
+                            -172.0,
+                            -87.0,
+                            0.0
+                        ],
+                        "Scale": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": 0.0
+                    },
+                    {
+                        "Component": "GameUITextHandler",
+                        "Text": "Scroll with up and down arrow keys",
+                        "Font": "EvanstonTavern-1858Regular",
+                        "FontSize": 10,
+                        "Pos": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Color": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Alpha": 1.0,
+                        "RenderLayer": 4
+                    }
+                ]
+            },
+            {
+                "Child": [
+                    {
+                        "Name": "Audio Controls Button",
+                        "Prefab": ""
+                    },
+                    {
+                        "Component": "Transform",
+                        "Position": [
+                            130.0,
+                            -25.0,
+                            50.0
+                        ],
+                        "LocalPosition": [
+                            130.0,
+                            -25.0,
+                            0.0
+                        ],
+                        "Scale": [
+                            80.0,
+                            20.0,
+                            0.0
+                        ],
+                        "Rotation": 0.0
+                    },
+                    {
+                        "Component": "Renderer",
+                        "ModelType": 7,
+                        "ShaderName": "ButtonUIShader2",
+                        "TextureName": "whitesquare",
+                        "RenderLayer": 2,
+                        "Enabled": true,
+                        "AlphaValue": 0.5,
+                        "CustomAlpha": false
+                    },
+                    {
+                        "Component": "GameUITextHandler",
+                        "Text": "VOLUME",
+                        "Font": "ConduitITCBold",
+                        "FontSize": 11,
+                        "Pos": [
+                            -23.0,
+                            -3.0,
+                            0.0
+                        ],
+                        "Color": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Alpha": 1.0,
+                        "RenderLayer": 4
+                    },
+                    {
+                        "Component": "SoundComponent",
+                        "SoundName": "SFX_MenuSelectNew",
+                        "Volume": 1.0,
+                        "Pitch": 1.0
+                    },
+                    {
+                        "Component": "ButtonWrapper",
+                        "ButtonType": 0,
+                        "ButtonOrderPosition": 1,
+                        "InputField": "AudioMainMenu Prefab",
+                        "ChannelType": 0
+                    }
+                ]
+            },
+            {
+                "Child": [
+                    {
+                        "Name": "Keybind Button",
+                        "Prefab": ""
+                    },
+                    {
+                        "Component": "Transform",
+                        "Position": [
+                            130.0,
+                            -55.0,
+                            50.0
+                        ],
+                        "LocalPosition": [
+                            130.0,
+                            -55.0,
+                            0.0
+                        ],
+                        "Scale": [
+                            80.0,
+                            20.0,
+                            0.0
+                        ],
+                        "Rotation": 0.0
+                    },
+                    {
+                        "Component": "Renderer",
+                        "ModelType": 7,
+                        "ShaderName": "ButtonUIShader3",
+                        "TextureName": "whitesquare",
+                        "RenderLayer": 2,
+                        "Enabled": true,
+                        "AlphaValue": 0.5,
+                        "CustomAlpha": false
+                    },
+                    {
+                        "Component": "GameUITextHandler",
+                        "Text": "CONTROLS",
+                        "Font": "ConduitITCBold",
+                        "FontSize": 11,
+                        "Pos": [
+                            -23.0,
+                            -3.0,
+                            0.0
+                        ],
+                        "Color": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Alpha": 1.0,
+                        "RenderLayer": 4
+                    },
+                    {
+                        "Component": "SoundComponent",
+                        "SoundName": "SFX_MenuSelectNew",
+                        "Volume": 1.0,
+                        "Pitch": 1.0
+                    },
+                    {
+                        "Component": "ButtonWrapper",
+                        "ButtonType": 0,
+                        "ButtonOrderPosition": 2,
+                        "InputField": "Keybind Prefab",
+                        "ChannelType": 0
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "Name": "FPSCounter",
+                "Prefab": ""
+            },
+            {
+                "Component": "Transform",
+                "Position": [
+                    0.0,
+                    85.0,
+                    50.0
+                ],
+                "LocalPosition": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": 0.0
+            },
+            {
+                "Component": "GameUITextHandler",
+                "Text": "",
+                "Font": "EvanstonTavern-1858Regular",
+                "FontSize": 10,
+                "Pos": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Color": [
+                    0.0,
+                    1.0,
+                    1.0
+                ],
+                "Alpha": 1.0,
+                "RenderLayer": 4
+            }
+        ]
+    ]
+}

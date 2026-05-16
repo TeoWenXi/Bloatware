@@ -1,0 +1,440 @@
+{
+    "Prefab": [
+        {
+            "Name": "VolumeChange Prefab",
+            "Prefab": "PauseMenu Prefab"
+        },
+        {
+            "Component": "Transform",
+            "Position": [
+                -0.08351879566907883,
+                0.0,
+                50.0
+            ],
+            "LocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": [
+                10.0,
+                10.0,
+                0.0
+            ],
+            "Rotation": 0.0
+        },
+        {
+            "Component": "GameUIObjectHandler"
+        },
+        {
+            "Component": "SoundComponent",
+            "SoundName": "SFX_menu_open_new",
+            "Volume": 1.0,
+            "Pitch": 1.0
+        },
+        {
+            "Child": [
+                {
+                    "Name": "BGM Volume",
+                    "Prefab": "square"
+                },
+                {
+                    "Component": "Transform",
+                    "Position": [
+                        -143.08352661132813,
+                        30.0,
+                        50.0
+                    ],
+                    "LocalPosition": [
+                        -143.0,
+                        30.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        110.0,
+                        20.0,
+                        0.0
+                    ],
+                    "Rotation": -0.9040299654006958
+                },
+                {
+                    "Component": "GameUITextHandler",
+                    "Text": "00",
+                    "Font": "ConduitITCBold",
+                    "FontSize": 12,
+                    "Pos": [
+                        49.5,
+                        0.0,
+                        0.0
+                    ],
+                    "Color": [
+                        0.3499999940395355,
+                        0.3499999940395355,
+                        0.3499999940395355
+                    ],
+                    "Alpha": 1.0,
+                    "RenderLayer": 4
+                },
+                {
+                    "Component": "SoundComponent",
+                    "SoundName": "SFX_menu_select_new",
+                    "Volume": 0.75,
+                    "Pitch": 1.0
+                },
+                {
+                    "Component": "ButtonWrapper",
+                    "ButtonType": 14,
+                    "ButtonOrderPosition": 0,
+                    "InputField": "",
+                    "ChannelType": 1
+                },
+                {
+                    "Child": [
+                        {
+                            "Name": "BGM Volume Text",
+                            "Prefab": ""
+                        },
+                        {
+                            "Component": "Transform",
+                            "Position": [
+                                -143.08352661132813,
+                                30.0,
+                                50.0
+                            ],
+                            "LocalPosition": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        {
+                            "Component": "GameUITextHandler",
+                            "Text": "BGM          <       >",
+                            "Font": "ConduitITCBold",
+                            "FontSize": 12,
+                            "Pos": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Color": [
+                                0.3499999940395355,
+                                0.3499999940395355,
+                                0.3499999940395355
+                            ],
+                            "Alpha": 1.0,
+                            "RenderLayer": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Child": [
+                {
+                    "Name": "SFX Volume",
+                    "Prefab": ""
+                },
+                {
+                    "Component": "Transform",
+                    "Position": [
+                        -143.08352661132813,
+                        0.0,
+                        50.0
+                    ],
+                    "LocalPosition": [
+                        -143.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        110.0,
+                        20.0,
+                        0.0
+                    ],
+                    "Rotation": 0.0
+                },
+                {
+                    "Component": "GameUITextHandler",
+                    "Text": "00",
+                    "Font": "ConduitITCBold",
+                    "FontSize": 12,
+                    "Pos": [
+                        49.5,
+                        0.0,
+                        0.0
+                    ],
+                    "Color": [
+                        0.3499999940395355,
+                        0.3499999940395355,
+                        0.3499999940395355
+                    ],
+                    "Alpha": 1.0,
+                    "RenderLayer": 4
+                },
+                {
+                    "Component": "SoundComponent",
+                    "SoundName": "SFX_menu_select_new",
+                    "Volume": 0.75,
+                    "Pitch": 1.0
+                },
+                {
+                    "Component": "ButtonWrapper",
+                    "ButtonType": 14,
+                    "ButtonOrderPosition": 1,
+                    "InputField": "HowToPlay Prefab",
+                    "ChannelType": 0
+                },
+                {
+                    "Child": [
+                        {
+                            "Name": "SFX Volume Text",
+                            "Prefab": ""
+                        },
+                        {
+                            "Component": "Transform",
+                            "Position": [
+                                -143.08352661132813,
+                                0.0,
+                                50.0
+                            ],
+                            "LocalPosition": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        {
+                            "Component": "GameUITextHandler",
+                            "Text": "SFX            <       >",
+                            "Font": "ConduitITCBold",
+                            "FontSize": 12,
+                            "Pos": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Color": [
+                                0.3499999940395355,
+                                0.3499999940395355,
+                                0.3499999940395355
+                            ],
+                            "Alpha": 1.0,
+                            "RenderLayer": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Child": [
+                {
+                    "Name": "Master Volume",
+                    "Prefab": "ExitMenu Prefab"
+                },
+                {
+                    "Component": "Transform",
+                    "Position": [
+                        -143.08352661132813,
+                        -30.0,
+                        50.0
+                    ],
+                    "LocalPosition": [
+                        -143.0,
+                        -30.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        75.0,
+                        20.0,
+                        0.0
+                    ],
+                    "Rotation": 0.0
+                },
+                {
+                    "Component": "GameUITextHandler",
+                    "Text": "00",
+                    "Font": "ConduitITCBold",
+                    "FontSize": 12,
+                    "Pos": [
+                        49.5,
+                        0.0,
+                        0.0
+                    ],
+                    "Color": [
+                        0.3499999940395355,
+                        0.3499999940395355,
+                        0.3499999940395355
+                    ],
+                    "Alpha": 1.0,
+                    "RenderLayer": 4
+                },
+                {
+                    "Component": "SoundComponent",
+                    "SoundName": "SFX_menu_select_new",
+                    "Volume": 0.75,
+                    "Pitch": 1.0
+                },
+                {
+                    "Component": "ButtonWrapper",
+                    "ButtonType": 14,
+                    "ButtonOrderPosition": 2,
+                    "InputField": "ExitMenu Prefab",
+                    "ChannelType": 2
+                },
+                {
+                    "Child": [
+                        {
+                            "Name": "Master Volume Text",
+                            "Prefab": ""
+                        },
+                        {
+                            "Component": "Transform",
+                            "Position": [
+                                -143.08352661132813,
+                                -30.0,
+                                50.0
+                            ],
+                            "LocalPosition": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        {
+                            "Component": "GameUITextHandler",
+                            "Text": "Master     <       >",
+                            "Font": "ConduitITCBold",
+                            "FontSize": 12,
+                            "Pos": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Color": [
+                                0.3499999940395355,
+                                0.3499999940395355,
+                                0.3499999940395355
+                            ],
+                            "Alpha": 1.0,
+                            "RenderLayer": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Child": [
+                {
+                    "Name": "PauseMenu Background",
+                    "Prefab": ""
+                },
+                {
+                    "Component": "Transform",
+                    "Position": [
+                        -90.0835189819336,
+                        0.0,
+                        50.0
+                    ],
+                    "LocalPosition": [
+                        -90.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        800.0,
+                        600.0,
+                        0.0
+                    ],
+                    "Rotation": 0.0
+                },
+                {
+                    "Component": "Renderer",
+                    "ModelType": 7,
+                    "ShaderName": "BasicShader",
+                    "TextureName": "Misc_PauseMenuOverlay",
+                    "RenderLayer": 4,
+                    "Enabled": true,
+                    "AlphaValue": -1.0,
+                    "CustomAlpha": false
+                }
+            ]
+        },
+        {
+            "Child": [
+                {
+                    "Name": "ReturnToMenu Button",
+                    "Prefab": ""
+                },
+                {
+                    "Component": "Transform",
+                    "Position": [
+                        -143.08352661132813,
+                        -60.0,
+                        50.0
+                    ],
+                    "LocalPosition": [
+                        -143.0,
+                        -60.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Rotation": 0.0
+                },
+                {
+                    "Component": "GameUITextHandler",
+                    "Text": "Return To Menu",
+                    "Font": "ConduitITCBold",
+                    "FontSize": 12,
+                    "Pos": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Color": [
+                        0.3499999940395355,
+                        0.3499999940395355,
+                        0.3499999940395355
+                    ],
+                    "Alpha": 1.0,
+                    "RenderLayer": 4
+                },
+                {
+                    "Component": "SoundComponent",
+                    "SoundName": "SFX_menu_select_new",
+                    "Volume": 0.75,
+                    "Pitch": 1.0
+                },
+                {
+                    "Component": "ButtonWrapper",
+                    "ButtonType": 12,
+                    "ButtonOrderPosition": 3,
+                    "InputField": "PauseMenu Prefab",
+                    "ChannelType": 0
+                }
+            ]
+        }
+    ]
+}

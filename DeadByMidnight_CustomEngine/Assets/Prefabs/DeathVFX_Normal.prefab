@@ -1,0 +1,47 @@
+{
+    "Prefab": [
+        {
+            "Name": "DeathVFX_Normal",
+            "Prefab": ""
+        },
+        {
+            "Component": "Transform",
+            "Position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "LocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": [
+                40.0,
+                40.0,
+                1.0
+            ],
+            "Rotation": 0.0
+        },
+        {
+            "Component": "Renderer",
+            "ModelType": 8,
+            "ShaderName": "Animation",
+            "TextureName": "SpriteSheet_DeathAnimation",
+            "RenderLayer": 2,
+            "Enabled": true,
+            "AlphaValue": 0.5,
+            "CustomAlpha": false
+        },
+		{
+            "Component": "AnimationComponent",
+            "TotalFrames": 16,
+            "FrameDelay": 0.012500000186264515
+        },
+		{
+                "Component": "CSScriptComponent",
+                "ScriptName": "DeathVFXScript",
+                "SerializedValues": {}
+            }
+    ]
+}

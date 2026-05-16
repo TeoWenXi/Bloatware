@@ -1,0 +1,80 @@
+{
+    "Prefab": [
+        {
+            "Name": "LaserHazard",
+            "Prefab": ""
+        },
+        {
+            "Component": "Transform",
+            "Position": [
+                9.0,
+                63.0,
+                1.0
+            ],
+            "LocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": [
+                10.0,
+                55.0,
+                1.0
+            ],
+            "Rotation": 90.0
+        },
+        {
+            "Component": "Renderer",
+            "ModelType": 7,
+            "ShaderName": "LaserShader",
+            "TextureName": "Misc_StackableLaser",
+            "RenderLayer": 2
+        },
+        {
+            "Component": "PhysicsComponent",
+            "CurrentVelocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "CurrentAcceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Gravity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Force": 0.0,
+            "mMass": 1.0,
+            "Mass": 1.0,
+            "mObjBigScale": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Is_Char_Small": false,
+            "JumpMultiplier": 0.0,
+            "JumpVelocity": 0.0,
+            "Coeff_Of_Friction": 0.0
+        },
+        {
+            "Component": "Collider_AABB",
+            "Min": [
+                -18.5,
+                58.0,
+                0.0
+            ],
+            "Max": [
+                36.5,
+                68.0,
+                0.0
+            ]
+        },
+        {
+            "Component": "EnemyCollisionHandler"
+        }
+    ]
+}

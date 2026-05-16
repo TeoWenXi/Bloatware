@@ -1,0 +1,118 @@
+{
+    "TextObjects": [
+        [
+            {
+                "Name": "Text1"
+            },
+            {
+				"Component": "Transform",
+				"Position": [
+					-15,
+					20,
+					0
+				],
+				"Scale": [
+					10,
+					10,
+					0
+				],
+				"Rotation": 0
+			},
+			{
+				"Component": "GameUITextHandler",
+				"Text": "UITest1",
+				"Font": "GlitchGoblin",
+				"FontSize": 10,
+				"PosX": -50,
+				"PosY": 0,
+				"Color": [
+						0,
+						1,
+						0
+					]
+			}
+        ],
+		[
+            {
+                "Name": "Text2"
+            },
+            {
+				"Component": "Transform",
+				"Position": [
+					-15,
+					20,
+					0
+				],
+				"Scale": [
+					10,
+					10,
+					0
+				],
+				"Rotation": 0
+			},
+			{
+				"Component": "GameUITextHandler",
+				"Text": "UITest1",
+				"Font": "GlitchGoblin",
+				"FontSize": 10,
+				"PosX": 0,
+				"PosY": 0,
+				"Color": [
+						1,
+						0,
+						0
+					]
+			}
+        ]
+    ],
+	"ImageObjects": [
+        [
+            {
+                "Name": "Img1"
+            },
+            {
+				"Component": "Transform",
+				"Position": [
+					-15,
+					20,
+					0
+				],
+				"Scale": [
+					10,
+					10,
+					0
+				],
+				"Rotation": 0
+			},
+			{
+				"Component": "Renderer",
+				"ModelType": 4,
+				"ShaderName": "Basic"
+			}
+        ],
+		[
+            {
+                "Name": "Img2"
+            },
+            {
+				"Component": "Transform",
+				"Position": [
+					-15,
+					20,
+					0
+				],
+				"Scale": [
+					10,
+					10,
+					0
+				],
+				"Rotation": 0
+			},
+			{
+				"Component": "Renderer",
+				"ModelType": 4,
+				"ShaderName": "Basic"
+			}
+        ]
+	]
+}

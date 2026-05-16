@@ -1,0 +1,128 @@
+{
+    "Prefab": [
+        {
+            "Name": "ControllerConnected Prefab",
+            "Prefab": "ControllerConnected Prefab"
+        },
+        {
+            "Component": "Transform",
+            "Position": [
+                0.0,
+                0.0,
+                50.0
+            ],
+            "LocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": [
+                10.0,
+                10.0,
+                0.0
+            ],
+            "Rotation": 0.0
+        },
+        {
+            "Component": "GameUIObjectHandler"
+        },
+        {
+            "Component": "SoundComponent",
+            "SoundName": "SFX_menu_open_new",
+            "Volume": 1.0,
+            "Pitch": 1.0
+        },
+		{
+			"Component": "CSScriptComponent",
+			"ScriptName": "ControllerConnectedScript"
+        },
+        {
+            "Child": [
+                {
+                    "Name": "HowToPlay Button",
+                    "Prefab": ""
+                },
+                {
+                    "Component": "Transform",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        50.0
+                    ],
+                    "LocalPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        110.0,
+                        20.0,
+                        0.0
+                    ],
+                    "Rotation": 0.0
+                },
+                {
+                    "Component": "GameUITextHandler",
+                    "Text": "Controller Connected",
+                    "Font": "ConduitITCBold",
+                    "FontSize": 12,
+                    "Pos": [
+                        -48.0,
+                        -5.0,
+                        0.0
+                    ],
+                    "Color": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Alpha": 1.0,
+                    "RenderLayer": 4
+                },
+                {
+                    "Component": "SoundComponent",
+                    "SoundName": "SFX_menu_select_new",
+                    "Volume": 0.75,
+                    "Pitch": 1.0
+                }
+            ]
+        },
+        {
+            "Child": [
+                {
+                    "Name": "PauseMenu Background",
+                    "Prefab": ""
+                },
+                {
+                    "Component": "Transform",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        50.0
+                    ],
+                    "LocalPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        100.0,
+                        20.0,
+                        0.0
+                    ],
+                    "Rotation": 0.0
+                },
+                {
+                    "Component": "Renderer",
+                    "ModelType": 7,
+                    "ShaderName": "BasicShader",
+                    "TextureName": "Misc_PauseMenuOverlay",
+                    "RenderLayer": 4,
+                    "Enabled": true,
+                    "AlphaValue": 1.0,
+                    "CustomAlpha": false
+                }
+            ]
+        }
+    ]
+}

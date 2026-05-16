@@ -1,0 +1,94 @@
+{
+    "Prefab": [
+        {
+            "Name": "Key",
+            "Prefab": "Key"
+        },
+        {
+            "Component": "Transform",
+            "Position": [
+                101.28221893310547,
+                -45.030967712402344,
+                0.0
+            ],
+            "LocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": [
+                10.0,
+                10.0,
+                0.0
+            ],
+            "Rotation": 0.0
+        },
+        {
+            "Component": "Renderer",
+            "ModelType": 7,
+            "ShaderName": "BasicShader",
+            "TextureName": "Object_GreenKeyCard",
+            "RenderLayer": 2
+        },
+        {
+            "Component": "PhysicsComponent",
+            "CurrentVelocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "CurrentAcceleration": [
+                -0.0,
+                -0.0,
+                -0.0
+            ],
+            "Gravity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Force": 0.0,
+            "mMass": -1.0,
+            "Mass": -1.0,
+            "mObjBigScale": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Is_Char_Small": false,
+            "JumpMultiplier": 0.0,
+            "JumpVelocity": 0.0,
+            "Coeff_Of_Friction": 0.0
+        },
+        {
+            "Component": "Collider_AABB",
+            "Min": [
+                148.68685913085938,
+                -72.39189147949219,
+                0.0
+            ],
+            "Max": [
+                158.68685913085938,
+                -62.39189147949219,
+                0.0
+            ]
+        },
+        {
+            "Component": "Key",
+            "KeyState": 0,
+            "mOffsetFromPlayer": [
+                0.0,
+                10.0,
+                0.0
+            ],
+            "mSpawnLocation": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Component": "KeyCollisionHandler"
+        }
+    ]
+}

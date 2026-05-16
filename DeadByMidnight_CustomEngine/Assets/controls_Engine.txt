@@ -1,0 +1,37 @@
+{
+	"controlsBinding": [
+		"PlayerJump:87",
+		"PlayerShrink:88",
+		"PlayerLeft:65",
+		"PlayerRight:68",
+		"MenuUp:265",
+		"MenuDown:264",
+		"MenuLeft:263",
+		"MenuRight:262",
+		"MenuSelect:257",
+		"MenuBack:256",
+		"MenuPause:256",
+		"CheatFastforward:79",
+		"CheatFastforward:257",
+		"CheatSkip:49",
+		"CheatReset:82",
+		"textureToggle:84",
+		"colorToggle:85",
+		"wireframeToggle:73"
+	],
+	"gamepadBinding": [
+		"PlayerJump:0",
+		"PlayerShrink:5",
+		"PlayerLeft:14",
+		"PlayerRight:12",
+		"MenuUp:11",
+		"MenuDown:13",
+		"MenuLeft:14",
+		"MenuRight:12",
+		"MenuSelect:0",
+		"MenuBack:1",
+		"MenuPause:7",
+		"CheatFastforward:3",
+		"CheatSkip:501"
+	]
+}

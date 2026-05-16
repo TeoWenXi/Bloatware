@@ -1,0 +1,172 @@
+{
+    "SceneName": "EndScene",
+    "BackgroundColor": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582,
+        1.0
+    ],
+    "EditorCameraSpeed": -1.0,
+    "CameraThresholdHorizontal": [
+        0.0,
+        0.0,
+        1.0
+    ],
+    "CameraThresholdVertical": [
+        0.0,
+        0.0,
+        1.0
+    ],
+    "CameraWaypoints": [
+        {
+            "Position": [
+                120.0,
+                -37.0,
+                50.0
+            ],
+            "Zoom": 1.0,
+            "TrackPlayer": false,
+            "PlayerSpawnPos": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "HoldVertical": false,
+            "HoldHorizontal": false,
+            "ClampEnabled": false,
+            "ClampVertRange": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "ClampHoriRange": [
+                0.0,
+                0.0,
+                1.0
+            ]
+        }
+    ],
+    "GameObjects": [
+        [
+            {
+                "Name": "DemoEnd Prefab",
+                "Prefab": "Key"
+            },
+            {
+                "Component": "Transform",
+                "Position": [
+                    0.0,
+                    0.0,
+                    50.0
+                ],
+                "LocalPosition": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    800.0,
+                    600.0,
+                    0.0
+                ],
+                "Rotation": 0.0
+            },
+            {
+                "Component": "GameUIObjectHandler"
+            },
+            {
+                "Child": [
+                    {
+                        "Name": "DemoEnd Background",
+                        "Prefab": ""
+                    },
+                    {
+                        "Component": "Transform",
+                        "Position": [
+                            0.0,
+                            0.0,
+                            50.0
+                        ],
+                        "LocalPosition": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Scale": [
+                            380.0,
+                            220.0,
+                            0.0
+                        ],
+                        "Rotation": 0.0
+                    },
+                    {
+                        "Component": "Renderer",
+                        "ModelType": 7,
+                        "ShaderName": "BasicShader",
+                        "TextureName": "EndMenu",
+                        "RenderLayer": 2,
+                        "Enabled": true,
+                        "AlphaValue": 1.0,
+                        "CustomAlpha": true
+                    }
+                ]
+            },
+            {
+                "Child": [
+                    {
+                        "Name": "RestartButton",
+                        "Prefab": ""
+                    },
+                    {
+                        "Component": "Transform",
+                        "Position": [
+                            -33.0,
+                            -55.0,
+                            50.0
+                        ],
+                        "LocalPosition": [
+                            -33.0,
+                            -55.0,
+                            0.0
+                        ],
+                        "Scale": [
+                            40.0,
+                            15.0,
+                            0.0
+                        ],
+                        "Rotation": 0.0
+                    },
+                    {
+                        "Component": "GameUITextHandler",
+                        "Text": "Return to Main Menu",
+                        "Font": "ConduitITCBold",
+                        "FontSize": 13,
+                        "Pos": [
+                            -18.0,
+                            -4.0,
+                            0.0
+                        ],
+                        "Color": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Alpha": 1.0
+                    },
+                    {
+                        "Component": "SoundComponent",
+                        "SoundName": "SFX_MenuSelectNew",
+                        "Volume": 0.5,
+                        "Pitch": 1.0
+                    },
+                    {
+                        "Component": "ButtonWrapper",
+                        "ButtonType": 13,
+                        "ButtonOrderPosition": -1,
+                        "InputField": "MainMenuScene"
+                    }
+                ]
+            }
+        ]
+    ]
+}

@@ -1,0 +1,374 @@
+{
+    "SceneName": "CreditsScene",
+    "BackgroundColor": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582,
+        1.0
+    ],
+    "EditorCameraSpeed": 40.0,
+    "CameraThresholdHorizontal": [
+        0.0,
+        0.0,
+        1.0
+    ],
+    "CameraThresholdVertical": [
+        0.0,
+        0.0,
+        1.0
+    ],
+    "CameraWaypoints": [
+        {
+            "Position": [
+                120.0,
+                -37.0,
+                50.0
+            ],
+            "Zoom": 1.0,
+            "TrackPlayer": false,
+            "PlayerSpawnPos": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "HoldVertical": false,
+            "HoldHorizontal": false,
+            "ClampEnabled": false,
+            "ClampVertRange": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "ClampHoriRange": [
+                0.0,
+                0.0,
+                1.0
+            ]
+        }
+    ],
+    "GameObjects": [
+        [
+            {
+                "Name": "Sprite Prefab",
+                "Prefab": "sprite"
+            },
+            {
+                "Component": "Transform",
+                "Position": [
+                    37.0670280456543,
+                    -77.31501770019531,
+                    50.0
+                ],
+                "LocalPosition": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    10.0,
+                    10.0,
+                    0.0
+                ],
+                "Rotation": 0.0
+            },
+            {
+                "Component": "SoundComponent",
+                "SoundName": "BGM_QubieMenuMusic",
+                "Volume": 0.5,
+                "Pitch": 1.0
+            }
+        ],
+        [
+            {
+                "Name": "TerminalSound",
+                "Prefab": "sprite"
+            },
+            {
+                "Component": "Transform",
+                "Position": [
+                    37.0670280456543,
+                    -77.31501770019531,
+                    50.0
+                ],
+                "LocalPosition": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    10.0,
+                    10.0,
+                    0.0
+                ],
+                "Rotation": 0.0
+            },
+            {
+                "Component": "SoundComponent",
+                "SoundName": "SFX_TerminalTextSound1",
+                "Volume": 0.5,
+                "Pitch": 1.0
+            }
+        ],
+        [
+            {
+                "Name": "FPSCounter",
+                "Prefab": ""
+            },
+            {
+                "Component": "Transform",
+                "Position": [
+                    0.0,
+                    85.0,
+                    50.0
+                ],
+                "LocalPosition": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": 0.0
+            },
+            {
+                "Component": "GameUITextHandler",
+                "Text": "",
+                "Font": "EvanstonTavern-1858Regular",
+                "FontSize": 10,
+                "Pos": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Color": [
+                    0.0,
+                    1.0,
+                    1.0
+                ],
+                "Alpha": 1.0,
+                "RenderLayer": 4
+            }
+        ],
+        [
+            {
+                "Name": "Title",
+                "Prefab": ""
+            },
+            {
+                "Component": "Transform",
+                "Position": [
+                    -80.0,
+                    -15.0,
+                    0.0
+                ],
+                "LocalPosition": [
+                    -80.0,
+                    -15.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": 0.0
+            },
+            {
+                "Component": "GameUITextHandler",
+                "Text": "BLOATWARE",
+                "Font": "EvanstonTavern-1858Regular",
+                "FontSize": 36,
+                "Pos": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Alpha": 1.0,
+                "RenderLayer": 4
+            }
+        ],
+        [
+            {
+                "Name": "logo",
+                "Prefab": ""
+            },
+            {
+                "Component": "Transform",
+                "Position": [
+                    0.0,
+                    -150.0,
+                    0.0
+                ],
+                "LocalPosition": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    80.0,
+                    80.0,
+                    80.0
+                ],
+                "Rotation": 0.0
+            },
+            {
+                "Component": "Renderer",
+                "ModelType": 7,
+                "ShaderName": "BasicShader",
+                "TextureName": "Logo_DeadByMidnight",
+                "RenderLayer": 2,
+                "Enabled": true,
+                "AlphaValue": 1.0,
+                "CustomAlpha": false
+            }
+        ],
+        [
+            {
+                "Name": "logo2",
+                "Prefab": ""
+            },
+            {
+                "Component": "Transform",
+                "Position": [
+                    0.0,
+                    -1353.0,
+                    0.0
+                ],
+                "LocalPosition": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    120.0,
+                    120.0,
+                    120.0
+                ],
+                "Rotation": 0.0
+            },
+            {
+                "Component": "Renderer",
+                "ModelType": 7,
+                "ShaderName": "BasicShader",
+                "TextureName": "Logo_0",
+                "RenderLayer": 2,
+                "Enabled": true,
+                "AlphaValue": 1.0,
+                "CustomAlpha": false
+            }
+        ],
+        [
+            {
+                "Name": "logo3",
+                "Prefab": ""
+            },
+            {
+                "Component": "Transform",
+                "Position": [
+                    0.0,
+                    -1443.0,
+                    0.0
+                ],
+                "LocalPosition": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    120.0,
+                    120.0,
+                    120.0
+                ],
+                "Rotation": 0.0
+            },
+            {
+                "Component": "Renderer",
+                "ModelType": 7,
+                "ShaderName": "BasicShader",
+                "TextureName": "Logo_OpenGL",
+                "RenderLayer": 2,
+                "Enabled": true,
+                "AlphaValue": 1.0,
+                "CustomAlpha": false
+            }
+        ],
+        [
+            {
+                "Name": "logo0",
+                "Prefab": ""
+            },
+            {
+                "Component": "Transform",
+                "Position": [
+                    0.0,
+                    -1533.0,
+                    0.0
+                ],
+                "LocalPosition": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    120.0,
+                    120.0,
+                    120.0
+                ],
+                "Rotation": 0.0
+            },
+            {
+                "Component": "Renderer",
+                "ModelType": 7,
+                "ShaderName": "BasicShader",
+                "TextureName": "Logo_Fmod",
+                "RenderLayer": 2,
+                "Enabled": true,
+                "AlphaValue": 1.0,
+                "CustomAlpha": false
+            }
+        ],
+        [
+            {
+                "Name": "logo1",
+                "Prefab": ""
+            },
+            {
+                "Component": "Transform",
+                "Position": [
+                    0.0,
+                    -1613.0,
+                    0.0
+                ],
+                "LocalPosition": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    120.0,
+                    120.0,
+                    120.0
+                ],
+                "Rotation": 0.0
+            },
+            {
+                "Component": "Renderer",
+                "ModelType": 7,
+                "ShaderName": "BasicShader",
+                "TextureName": "Logo_Krita",
+                "RenderLayer": 2,
+                "Enabled": true,
+                "AlphaValue": 1.0,
+                "CustomAlpha": false
+            }
+        ]
+    ]
+}

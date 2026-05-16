@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Bloatware|x64">
+      <Configuration>Bloatware</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\lib\GLAD-opengl4.6\src\glad.c" />
+    <ClCompile Include="..\..\lib\imgui-1.89.9-docking\backends\imgui_impl_glfw.cpp" />
+    <ClCompile Include="..\..\lib\imgui-1.89.9-docking\backends\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="..\..\lib\imgui-1.89.9-docking\imgui.cpp" />
+    <ClCompile Include="..\..\lib\imgui-1.89.9-docking\imgui_demo.cpp" />
+    <ClCompile Include="..\..\lib\imgui-1.89.9-docking\imgui_draw.cpp" />
+    <ClCompile Include="..\..\lib\imgui-1.89.9-docking\imgui_tables.cpp" />
+    <ClCompile Include="..\..\lib\imgui-1.89.9-docking\imgui_widgets.cpp" />
+    <ClCompile Include="..\..\lib\imgui-1.89.9-docking\misc\cpp\imgui_stdlib.cpp" />
+    <ClCompile Include="Source\AnimationComponent.cpp" />
+    <ClCompile Include="Source\AnimationSystem.cpp" />
+    <ClCompile Include="Source\AIComponent.cpp" />
+    <ClCompile Include="Source\AIManager.cpp" />
+    <ClCompile Include="Source\BossScene.cpp" />
+    <ClCompile Include="Source\BoxModel.cpp" />
+    <ClCompile Include="Source\ButtonSelectManager.cpp" />
+    <ClCompile Include="Source\ButtonWrapper.cpp" />
+    <ClCompile Include="Source\Camera.cpp" />
+    <ClCompile Include="Source\CamWaypoint.cpp" />
+    <ClCompile Include="Source\CinematicBars.cpp" />
+    <ClCompile Include="Source\CircleModel.cpp" />
+    <ClCompile Include="Source\AssetManager.cpp" />
+    <ClCompile Include="Source\Collider_AABB.cpp" />
+    <ClCompile Include="Source\Collider_Circle.cpp" />
+    <ClCompile Include="Source\Collision.cpp" />
+    <ClCompile Include="Source\CreditsScene.cpp" />
+    <ClCompile Include="Source\CSScriptComponent.cpp" />
+    <ClCompile Include="Source\DebugLogger.cpp" />
+    <ClCompile Include="Source\DialogueTrigger.cpp" />
+    <ClCompile Include="Source\DragDrop.cpp" />
+    <ClCompile Include="Source\EndGoal.cpp" />
+    <ClCompile Include="Source\EndingDialogueScene.cpp" />
+    <ClCompile Include="Source\EndScene.cpp" />
+    <ClCompile Include="Source\EngineDll.cpp" />
+    <ClCompile Include="Source\EventManager.cpp" />
+    <ClCompile Include="Source\GameScene.cpp" />
+    <ClCompile Include="Source\GameUIManager.cpp" />
+    <ClCompile Include="Source\GameUIObjectHandler.cpp" />
+    <ClCompile Include="Source\GameUITextHandler.cpp" />
+    <ClCompile Include="Source\GfxHandler.cpp" />
+    <ClCompile Include="Source\GridModel.cpp" />
+    <ClCompile Include="Source\JSONManager.cpp" />
+    <ClCompile Include="Source\EditorMainScene.cpp" />
+    <ClCompile Include="Source\Entity.cpp" />
+    <ClCompile Include="Source\EntityManager.cpp" />
+    <ClCompile Include="Source\GraphicsSystem.cpp" />
+    <ClCompile Include="Source\InputManager.cpp" />
+    <ClCompile Include="Source\Key.cpp" />
+    <ClCompile Include="Source\KeyWall.cpp" />
+    <ClCompile Include="Source\LevelLoader.cpp" />
+    <ClCompile Include="Source\LevelManager.cpp" />
+    <ClCompile Include="Source\LibraryManager.cpp" />
+    <ClCompile Include="Source\LineModel.cpp" />
+    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\MainMenuScene.cpp" />
+    <ClCompile Include="Source\MainMenuTransitionScene.cpp" />
+    <ClCompile Include="Source\Matrix4x4.cpp" />
+    <ClCompile Include="Source\NextCheckpointCollisionHandler.cpp" />
+    <ClCompile Include="Source\OpeningDialogueScene.cpp" />
+    <ClCompile Include="Source\ParticleSystem.cpp" />
+    <ClCompile Include="Source\PlayOnceSoundComponent.cpp" />
+    <ClCompile Include="Source\SoundComponent.cpp" />
+    <ClCompile Include="Source\SplashScreenScene.cpp" />
+    <ClCompile Include="Source\TileComponent.cpp" />
+    <ClCompile Include="Source\Matrix3x3.cpp" />
+    <ClCompile Include="Source\Model.cpp" />
+    <ClCompile Include="Source\MonoManager.cpp" />
+    <ClCompile Include="Source\MyImGui.cpp" />
+    <ClCompile Include="Source\PhysicsComponent.cpp" />
+    <ClCompile Include="Source\PhysicsSystem.cpp" />
+    <ClCompile Include="Source\Player.cpp" />
+    <ClCompile Include="Source\PlayerCollisionHandler.cpp" />
+    <ClCompile Include="Source\PointModel.cpp" />
+    <ClCompile Include="Source\QuadModel.cpp" />
+    <ClCompile Include="Source\Renderer.cpp" />
+    <ClCompile Include="Source\SceneManager.cpp" />
+    <ClCompile Include="Source\CoreEngine.cpp" />
+    <ClCompile Include="Source\Shader.cpp" />
+    <ClCompile Include="Source\SoundManager.cpp" />
+    <ClCompile Include="Source\TextManager.cpp" />
+    <ClCompile Include="Source\Texture.cpp" />
+    <ClCompile Include="Source\Transform.cpp" />
+    <ClCompile Include="Source\TriangleModel.cpp" />
+    <ClCompile Include="Source\UIButton.cpp" />
+    <ClCompile Include="Source\UIButton_ChangeScene.cpp" />
+    <ClCompile Include="Source\UIButton_ExitMenu.cpp" />
+    <ClCompile Include="Source\UIButton_HowToPlay.cpp" />
+    <ClCompile Include="Source\UIButton_Keybind.cpp" />
+    <ClCompile Include="Source\UIButton_PauseMenu.cpp" />
+    <ClCompile Include="Source\UIButton_RestartStart.cpp" />
+    <ClCompile Include="Source\UIButton_SpawnPrefab.cpp" />
+    <ClCompile Include="Source\UIButton_VolumeChanger.cpp" />
+    <ClCompile Include="Source\Vector4.cpp" />
+    <ClCompile Include="Source\VFXEntity.cpp" />
+    <ClCompile Include="Source\Wind.cpp" />
+    <ClCompile Include="Source\WindowsManager.cpp" />
+    <ClCompile Include="Source\Vector3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\lib\imgui-1.89.9-docking\backends\imgui_impl_glfw.h" />
+    <ClInclude Include="..\..\lib\imgui-1.89.9-docking\backends\imgui_impl_opengl3.h" />
+    <ClInclude Include="..\..\lib\imgui-1.89.9-docking\backends\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="..\..\lib\imgui-1.89.9-docking\imconfig.h" />
+    <ClInclude Include="..\..\lib\imgui-1.89.9-docking\imgui.h" />
+    <ClInclude Include="..\..\lib\imgui-1.89.9-docking\imgui_internal.h" />
+    <ClInclude Include="..\..\lib\imgui-1.89.9-docking\imstb_rectpack.h" />
+    <ClInclude Include="..\..\lib\imgui-1.89.9-docking\imstb_textedit.h" />
+    <ClInclude Include="..\..\lib\imgui-1.89.9-docking\imstb_truetype.h" />
+    <ClInclude Include="..\..\lib\imgui-1.89.9-docking\misc\cpp\imgui_stdlib.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\allocators.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\cursorstreamwrapper.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\document.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\encodedstream.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\encodings.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\error\en.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\error\error.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\filereadstream.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\filewritestream.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\fwd.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\biginteger.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\clzll.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\diyfp.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\dtoa.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\ieee754.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\itoa.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\meta.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\pow10.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\regex.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\stack.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\strfunc.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\strtod.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\swap.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\istreamwrapper.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\memorybuffer.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\memorystream.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\msinttypes\inttypes.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\msinttypes\stdint.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\ostreamwrapper.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\pointer.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\prettywriter.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\rapidjson.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\reader.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\schema.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\stream.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\stringbuffer.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\uri.h" />
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\writer.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Source\Animation.h" />
+    <ClInclude Include="Source\AnimationComponent.h" />
+    <ClInclude Include="Source\AnimationSystem.h" />
+    <ClInclude Include="Source\AIComponent.h" />
+    <ClInclude Include="Source\AIManager.h" />
+    <ClInclude Include="Source\BossScene.h" />
+    <ClInclude Include="Source\BoxModel.h" />
+    <ClInclude Include="Source\ButtonSelectManager.h" />
+    <ClInclude Include="Source\ButtonWrapper.h" />
+    <ClInclude Include="Source\Camera.h" />
+    <ClInclude Include="Source\CamWaypoint.h" />
+    <ClInclude Include="Source\CinematicBars.h" />
+    <ClInclude Include="Source\CircleModel.h" />
+    <ClInclude Include="Source\AssetManager.h" />
+    <ClInclude Include="Source\Collider_AABB.h" />
+    <ClInclude Include="Source\Collider_Circle.h" />
+    <ClInclude Include="Source\Collision.h" />
+    <ClInclude Include="Source\ComponentArray.h" />
+    <ClInclude Include="Source\ComponentBase.h" />
+    <ClInclude Include="Source\ComponentManager.h" />
+    <ClInclude Include="Source\ComponentsHeader.h" />
+    <ClInclude Include="Source\CreditsScene.h" />
+    <ClInclude Include="Source\CSScriptComponent.h" />
+    <ClInclude Include="Source\DebugLogger.h" />
+    <ClInclude Include="Source\DialogueTrigger.h" />
+    <ClInclude Include="Source\DragDrop.h" />
+    <ClInclude Include="Source\EndGoal.h" />
+    <ClInclude Include="Source\EndingDialogueScene.h" />
+    <ClInclude Include="Source\EndScene.h" />
+    <ClInclude Include="Source\EnemyCollisionHandler.h" />
+    <ClInclude Include="Source\EngineDll.h" />
+    <ClInclude Include="Source\EventList.h" />
+    <ClInclude Include="Source\EventManager.h" />
+    <ClInclude Include="Source\EventsHeader.h" />
+    <ClInclude Include="Source\FontCharacter.h" />
+    <ClInclude Include="Source\GameScene.h" />
+    <ClInclude Include="Source\GameUIManager.h" />
+    <ClInclude Include="Source\GameUIObjectHandler.h" />
+    <ClInclude Include="Source\GameUITextHandler.h" />
+    <ClInclude Include="Source\GfxHandler.h" />
+    <ClInclude Include="Source\GridModel.h" />
+    <ClInclude Include="Source\JSONManager.h" />
+    <ClInclude Include="Source\ECS_Types.h" />
+    <ClInclude Include="Source\EditorMainScene.h" />
+    <ClInclude Include="Source\Entity.h" />
+    <ClInclude Include="Source\EntityManager.h" />
+    <ClInclude Include="Source\GraphicsSystem.h" />
+    <ClInclude Include="Source\InputManager.h" />
+    <ClInclude Include="Source\Key.h" />
+    <ClInclude Include="Source\KeyCollisionHandler.h" />
+    <ClInclude Include="Source\KeyWall.h" />
+    <ClInclude Include="Source\KeyWallCollisionHandler.h" />
+    <ClInclude Include="Source\LevelLoader.h" />
+    <ClInclude Include="Source\LevelManager.h" />
+    <ClInclude Include="Source\LibraryManager.h" />
+    <ClInclude Include="Source\LineModel.h" />
+    <ClInclude Include="Source\MainMenuScene.h" />
+    <ClInclude Include="Source\MainMenuTransitionScene.h" />
+    <ClInclude Include="Source\Manager.h" />
+    <ClInclude Include="Source\Matrix4x4.h" />
+    <ClInclude Include="Source\NextCheckpointCollisionHandler.h" />
+    <ClInclude Include="Source\OpeningDialogueScene.h" />
+    <ClInclude Include="Source\ParticleSystem.h" />
+    <ClInclude Include="Source\PlayOnceSoundComponent.h" />
+    <ClInclude Include="Source\SoundComponent.h" />
+    <ClInclude Include="Source\SplashScreenScene.h" />
+    <ClInclude Include="Source\TileComponent.h" />
+    <ClInclude Include="Source\MathDefines.h" />
+    <ClInclude Include="Source\Matrix3x3.h" />
+    <ClInclude Include="Source\Model.h" />
+    <ClInclude Include="Source\MonoManager.h" />
+    <ClInclude Include="Source\MyImGui.h" />
+    <ClInclude Include="Source\Observer.h" />
+    <ClInclude Include="Source\PhysicsComponent.h" />
+    <ClInclude Include="Source\PhysicsSystem.h" />
+    <ClInclude Include="Source\Player.h" />
+    <ClInclude Include="Source\PlayerCollisionHandler.h" />
+    <ClInclude Include="Source\PointModel.h" />
+    <ClInclude Include="Source\QuadModel.h" />
+    <ClInclude Include="Source\Renderer.h" />
+    <ClInclude Include="Source\Scene.h" />
+    <ClInclude Include="Source\SceneManager.h" />
+    <ClInclude Include="Source\Shader.h" />
+    <ClInclude Include="Source\Singleton.h" />
+    <ClInclude Include="Source\CoreEngine.h" />
+    <ClInclude Include="Source\SoundManager.h" />
+    <ClInclude Include="Source\TextManager.h" />
+    <ClInclude Include="Source\Texture.h" />
+    <ClInclude Include="Source\Transform.h" />
+    <ClInclude Include="Source\TriangleModel.h" />
+    <ClInclude Include="Source\UIButton.h" />
+    <ClInclude Include="Source\UIButton_ChangeScene.h" />
+    <ClInclude Include="Source\UIButton_CloseMenu.h" />
+    <ClInclude Include="Source\UIButton_ExitGame.h" />
+    <ClInclude Include="Source\UIButton_ExitMenu.h" />
+    <ClInclude Include="Source\UIButton_HowToPlay.h" />
+    <ClInclude Include="Source\UIButton_Keybind.h" />
+    <ClInclude Include="Source\UIButton_PauseMenu.h" />
+    <ClInclude Include="Source\UIButton_RestartStart.h" />
+    <ClInclude Include="Source\UIButton_SpawnPrefab.h" />
+    <ClInclude Include="Source\UIButton_Test.h" />
+    <ClInclude Include="Source\UIButton_Unpause.h" />
+    <ClInclude Include="Source\UIButton_VolumeChanger.h" />
+    <ClInclude Include="Source\Vector4.h" />
+    <ClInclude Include="Source\VFXEntity.h" />
+    <ClInclude Include="Source\Wind.h" />
+    <ClInclude Include="Source\WindCollisionHandler.h" />
+    <ClInclude Include="Source\WindowsManager.h" />
+    <ClInclude Include="Source\Vector3.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Assets\Shaders\AIShader.frag" />
+    <None Include="..\..\Assets\Shaders\AIShader.vert" />
+    <None Include="..\..\Assets\Shaders\Animation.frag" />
+    <None Include="..\..\Assets\Shaders\Animation.vert" />
+    <None Include="..\..\Assets\Shaders\BasicShader.frag" />
+    <None Include="..\..\Assets\Shaders\BasicShader.vert" />
+    <None Include="..\..\Assets\Shaders\BGParallaxA.frag" />
+    <None Include="..\..\Assets\Shaders\BGParallaxA.vert" />
+    <None Include="..\..\Assets\Shaders\BGParallaxZ.frag" />
+    <None Include="..\..\Assets\Shaders\BGParallaxZ.vert" />
+    <None Include="..\..\Assets\Shaders\BloomShader.frag" />
+    <None Include="..\..\Assets\Shaders\BloomShader.vert" />
+    <None Include="..\..\Assets\Shaders\ButtonUIShader.frag" />
+    <None Include="..\..\Assets\Shaders\ButtonUIShader.vert" />
+    <None Include="..\..\Assets\Shaders\ButtonUIShader2.frag" />
+    <None Include="..\..\Assets\Shaders\ButtonUIShader2.vert" />
+    <None Include="..\..\Assets\Shaders\ButtonUIShader3.frag" />
+    <None Include="..\..\Assets\Shaders\ButtonUIShader3.vert" />
+    <None Include="..\..\Assets\Shaders\ButtonUIShader4.frag" />
+    <None Include="..\..\Assets\Shaders\ButtonUIShader4.vert" />
+    <None Include="..\..\Assets\Shaders\GfxDebug.frag" />
+    <None Include="..\..\Assets\Shaders\GfxDebug.vert" />
+    <None Include="..\..\Assets\Shaders\FontShader.frag" />
+    <None Include="..\..\Assets\Shaders\FontShader.vert" />
+    <None Include="..\..\Assets\Shaders\GfxScaleRotate.frag" />
+    <None Include="..\..\Assets\Shaders\GfxScaleRotate.vert" />
+    <None Include="..\..\Assets\Shaders\GridShader.frag" />
+    <None Include="..\..\Assets\Shaders\GridShader.vert" />
+    <None Include="..\..\Assets\Shaders\HB1_FocusRingShader.frag" />
+    <None Include="..\..\Assets\Shaders\HB1_FocusRingShader.vert" />
+    <None Include="..\..\Assets\Shaders\HB2_HyperBeamShader.frag" />
+    <None Include="..\..\Assets\Shaders\HB2_HyperBeamShader.vert" />
+    <None Include="..\..\Assets\Shaders\HB2_HyperGlowShader.frag" />
+    <None Include="..\..\Assets\Shaders\HB2_HyperGlowShader.vert" />
+    <None Include="..\..\Assets\Shaders\KeyWallShader.frag" />
+    <None Include="..\..\Assets\Shaders\KeyWallShader.vert" />
+    <None Include="..\..\Assets\Shaders\LaserShader.frag" />
+    <None Include="..\..\Assets\Shaders\LaserShader.vert" />
+    <None Include="..\..\Assets\Shaders\MainMenuShader.frag" />
+    <None Include="..\..\Assets\Shaders\MainMenuShader.vert" />
+    <None Include="..\..\Assets\Shaders\NotBasicShader.frag" />
+    <None Include="..\..\Assets\Shaders\NotBasicShader.vert" />
+    <None Include="..\..\Assets\Shaders\PlayerBodyShader.frag" />
+    <None Include="..\..\Assets\Shaders\PlayerBodyShader.vert" />
+    <None Include="..\..\Assets\Shaders\TileShader.frag" />
+    <None Include="..\..\Assets\Shaders\TileShader.vert" />
+    <None Include="..\..\Assets\Shaders\WindShader.frag" />
+    <None Include="..\..\Assets\Shaders\WindShader.vert" />
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram_original.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Engine.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{2b3164bf-3e80-4934-b947-889f1096e85d}</ProjectGuid>
+    <RootNamespace>Engine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Bloatware|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="EnginePropertySheet.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="EnginePropertySheet.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Bloatware|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="BloatwarePropertySheet.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(SolutionDir)lib\glfw-3.3.8.bin.WIN64\include;$(SolutionDir)lib\GLAD-opengl4.6\include;$(SolutionDir)lib\glm-0.9.9.8;$(SolutionDir)lib\stb_image-2.28\include;$(SolutionDir)lib\imgui-1.89.9-docking;$(SolutionDir)lib\imgui-1.89.9-docking\backends;$(SolutionDir)lib\freetype-2.13.2\include;$(SolutionDir)lib\fmod-2.0.2\include;$(SolutionDir)lib\rapidjson-1.1.0;$(SolutionDir)lib\imgui-1.89.9-docking\backends;$(SolutionDir)lib\freetype-2.13.2\include;$(SolutionDir)lib\fmod-2.0.2\include;$(SolutionDir)lib\mono-4.5\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(SolutionDir)lib\glfw-3.3.8.bin.WIN64\include;$(SolutionDir)lib\GLAD-opengl4.6\include;$(SolutionDir)lib\glm-0.9.9.8;$(SolutionDir)lib\stb_image-2.28\include;$(SolutionDir)lib\imgui-1.89.9-docking;$(SolutionDir)lib\imgui-1.89.9-docking\backends;$(SolutionDir)lib\freetype-2.13.2\include;$(SolutionDir)lib\fmod-2.0.2\include;$(SolutionDir)lib\rapidjson-1.1.0;$(SolutionDir)lib\imgui-1.89.9-docking\backends;$(SolutionDir)lib\freetype-2.13.2\include;$(SolutionDir)lib\fmod-2.0.2\include;$(SolutionDir)lib\mono-4.5\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Bloatware|x64'">
+    <IncludePath>$(SolutionDir)lib\glfw-3.3.8.bin.WIN64\include;$(SolutionDir)lib\GLAD-opengl4.6\include;$(SolutionDir)lib\glm-0.9.9.8;$(SolutionDir)lib\stb_image-2.28\include;$(SolutionDir)lib\imgui-1.89.9-docking;$(SolutionDir)lib\imgui-1.89.9-docking\backends;$(SolutionDir)lib\freetype-2.13.2\include;$(SolutionDir)lib\fmod-2.0.2\include;$(SolutionDir)lib\rapidjson-1.1.0;$(SolutionDir)lib\imgui-1.89.9-docking\backends;$(SolutionDir)lib\freetype-2.13.2\include;$(SolutionDir)lib\fmod-2.0.2\include;$(SolutionDir)lib\mono-4.5\include;$(IncludePath)</IncludePath>
+    <TargetName>Bloatware</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_ENGINE;_NBLOATWARE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent />
+    <PostBuildEvent />
+    <PostBuildEvent />
+    <PostBuildEvent />
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;_ENGINE;_NBLOATWARE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent />
+    <PostBuildEvent />
+    <PostBuildEvent />
+    <PostBuildEvent />
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Bloatware|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;_BLOATWARE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent />
+    <PostBuildEvent />
+    <PostBuildEvent />
+    <PostBuildEvent />
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

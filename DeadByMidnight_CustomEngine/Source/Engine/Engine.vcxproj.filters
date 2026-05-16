@@ -1,0 +1,1145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{9c1ba6c6-f158-4563-a51c-16fb2ba65e57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Windows">
+      <UniqueIdentifier>{e53ae842-b69d-4069-9b8d-41f0dddf0831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Base">
+      <UniqueIdentifier>{85da2832-4d23-4218-b8f3-7b2f0605b9c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{95b9244c-f47b-4176-8bde-7d4dc135b564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\GLAD">
+      <UniqueIdentifier>{6d02b618-dfef-454e-ab1f-872975be591b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Graphics">
+      <UniqueIdentifier>{ab14e0ab-3241-4817-a411-66a4c55f6d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\ImGUI">
+      <UniqueIdentifier>{13ac895f-ab28-41a1-b787-cfdf1f765400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\ImGUI\backends">
+      <UniqueIdentifier>{63b3c13e-a191-473b-8fa5-4ff56d3caf84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\ECS">
+      <UniqueIdentifier>{c4dcafd6-6a02-42d5-a352-919f1cb50c9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{6fbb0feb-6ae1-446e-921b-5274499ff42e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Scene Base Class">
+      <UniqueIdentifier>{8da54c1b-9ed7-41a6-8e7d-04ee31beced7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\ECS\Base">
+      <UniqueIdentifier>{4a2d77d0-970b-4411-bb93-0d68ad13a89e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Scene">
+      <UniqueIdentifier>{4dc9aeb1-223d-48c6-8b3e-2506249595d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{d0e106eb-dcf8-484a-9202-94b367d538b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\TextManager">
+      <UniqueIdentifier>{c1d5b0c0-4187-487d-bdce-966a1d44b394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Input">
+      <UniqueIdentifier>{21ab8653-da4b-4f67-a14c-4191eb469926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\rapidJSON">
+      <UniqueIdentifier>{a8832ffe-48c9-4565-8c1c-8ad49074ecf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\rapidJSON\error">
+      <UniqueIdentifier>{44ee14b8-d62b-4229-9fa7-f5818424c3ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\rapidJSON\internal">
+      <UniqueIdentifier>{187cd91c-2e40-47af-ad46-7f2c6c50e8f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\rapidJSON\msinttypes">
+      <UniqueIdentifier>{2845a558-735a-460b-ac48-f08a744a6d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Core">
+      <UniqueIdentifier>{b384117e-a971-432a-ac26-7aa268926056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\EditorMain">
+      <UniqueIdentifier>{2205cc19-640d-463c-84b4-335a51759793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Graphics\Camera">
+      <UniqueIdentifier>{44d4c459-1427-46fa-9e7c-554154447fbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Graphics\Shader">
+      <UniqueIdentifier>{c954dcaa-1697-4e5d-936a-ef2dc48d2eaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Graphics\Texture">
+      <UniqueIdentifier>{ef8cb141-8a7f-485d-b099-e8d76e8c5de7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Graphics\Model">
+      <UniqueIdentifier>{df70048f-e738-4b88-a787-01bdd15550cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\SoundManager">
+      <UniqueIdentifier>{b489d7df-d57a-42b9-8e3a-5db324633c67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{fabec41f-bc05-4935-b787-67362bf42280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{4fdd5688-96ae-4530-9398-3af7ddc1b585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Colliders">
+      <UniqueIdentifier>{da42b467-53cb-4e68-8db9-355847619fa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Physics">
+      <UniqueIdentifier>{8c09eb9f-3169-4ff9-8f6b-2afc4ff75a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Player">
+      <UniqueIdentifier>{c3d8fee2-9dd3-4e4e-a7a4-ca8ad2479189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Base">
+      <UniqueIdentifier>{960513b0-8d40-4906-bb93-32f0b5c16b0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Events">
+      <UniqueIdentifier>{35dad4bc-b04e-4d7f-b5f8-ad88ab24803e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Observer">
+      <UniqueIdentifier>{f5acf16b-0e47-4b3e-88be-7ce50425106a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Graphics">
+      <UniqueIdentifier>{b05252d8-3cdf-4401-b0c8-253dc6063968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Physics">
+      <UniqueIdentifier>{14308a5b-0ae3-4956-a2b0-26d98de028bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\GameUI Manager">
+      <UniqueIdentifier>{2e26c796-0852-4a90-8320-7c9c1088c78d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Debug">
+      <UniqueIdentifier>{b8e7e264-e45d-4311-aa98-002c2fafd9b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\AI">
+      <UniqueIdentifier>{0bc8da53-5793-44be-bc58-5360d6bb5e7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Transform">
+      <UniqueIdentifier>{cf7cb4f4-2613-471c-b80d-2e7f6226e818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\CSScript">
+      <UniqueIdentifier>{7f9e9dc4-e2d6-4c16-beca-2feffa8a09b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Animation">
+      <UniqueIdentifier>{38b03b8e-2149-4364-85e8-073c65870083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\AIManager">
+      <UniqueIdentifier>{0e7ff3ea-5d90-4f5d-a64d-013c647fc809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\MapCreation">
+      <UniqueIdentifier>{2d6e26ef-0cef-4df7-8697-c7dae7b10aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mono">
+      <UniqueIdentifier>{ec7d9dcb-d604-4c3c-a28c-8e25c0df2ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\AssetManager">
+      <UniqueIdentifier>{ec5cd4b5-967a-4445-b245-73aea4281a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\JsonManager">
+      <UniqueIdentifier>{2612d6db-8801-49ed-813e-32ceec7511bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\LevelLoader">
+      <UniqueIdentifier>{0740f3d5-f0c7-4da4-8325-6dd8ba57a825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Game">
+      <UniqueIdentifier>{b0aadb4f-596f-4bf1-9ce7-ef110b71e51c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Sound">
+      <UniqueIdentifier>{8cdbdb3e-5f44-415c-96a3-6e8362716d28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\ImGUI\misc">
+      <UniqueIdentifier>{3a9b5948-aefb-469c-bc18-1f40b2a5f7f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\UIButton">
+      <UniqueIdentifier>{a7a1f676-4172-4a01-b591-641cc7f0b26f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\UIButton\ButtonWrapper">
+      <UniqueIdentifier>{4f975c58-0108-441f-a4b1-a197bb5e2f54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\EventHandlers">
+      <UniqueIdentifier>{ba68abb9-960d-47de-91fe-8824bf1a1548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Main Menu">
+      <UniqueIdentifier>{e7cdb689-f8d0-45b0-a269-a899ec626f5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\VFX">
+      <UniqueIdentifier>{a4320560-e7a9-416e-8534-ba9d59ee3c8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\EndGoal">
+      <UniqueIdentifier>{37cd67d1-4102-494d-a335-d68c5b0e2d1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\MyImGui">
+      <UniqueIdentifier>{1bfcfe83-0085-4874-bdee-3899831eb709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\ButtonSelectManager">
+      <UniqueIdentifier>{edb5872a-2128-4ff7-9316-50efe609abe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\DialogueTrigger">
+      <UniqueIdentifier>{7c96a96f-7a4c-4b3b-b679-7ed7c7efc637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\StageObjs">
+      <UniqueIdentifier>{e0cbb4e1-501a-4fa9-912b-eeb0d17a1db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\StageObjs\Wind">
+      <UniqueIdentifier>{ef7a1d51-ff88-4a0d-99f1-d7019bf89c25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Cinematic">
+      <UniqueIdentifier>{9cf41015-87a9-48a9-a051-34d004c8f9e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\DragDrop">
+      <UniqueIdentifier>{76b99d7a-887a-4342-9b78-c822fb6fbb53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\OpeningDialogue">
+      <UniqueIdentifier>{ae038f81-7827-4f8f-a437-2a1b1e192f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Boss">
+      <UniqueIdentifier>{56ddc382-fb02-4308-82a6-1daf4befd515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\MainMenuTransition">
+      <UniqueIdentifier>{0a6b9b98-8c83-4933-a5ea-6c5d6a4db822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\End">
+      <UniqueIdentifier>{900447e3-6d04-44f2-b82f-8e65ca9df8ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\EndingDialogue">
+      <UniqueIdentifier>{bc430d4f-ac4f-4460-99cf-34838f5ae225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Credits">
+      <UniqueIdentifier>{5c063ce7-3c2e-4d0f-99ee-cb5849714dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Splash Screen">
+      <UniqueIdentifier>{9fe60c32-06f7-4d89-b2d1-f1f611ba68c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WindowsManager.cpp">
+      <Filter>Systems\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\GLAD-opengl4.6\src\glad.c">
+      <Filter>Libraries\GLAD</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GraphicsSystem.cpp">
+      <Filter>Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EntityManager.cpp">
+      <Filter>Systems\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Entity.cpp">
+      <Filter>Systems\ECS\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneManager.cpp">
+      <Filter>Systems\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TextManager.cpp">
+      <Filter>Systems\TextManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\InputManager.cpp">
+      <Filter>Systems\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\JSONManager.cpp">
+      <Filter>Systems\JsonManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CoreEngine.cpp">
+      <Filter>Systems\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LibraryManager.cpp">
+      <Filter>Systems\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EditorMainScene.cpp">
+      <Filter>Scenes\EditorMain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Matrix3x3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Vector3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collision.cpp">
+      <Filter>Systems\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysicsSystem.cpp">
+      <Filter>Systems\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>Systems\Graphics\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Model.cpp">
+      <Filter>Systems\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture.cpp">
+      <Filter>Systems\Graphics\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shader.cpp">
+      <Filter>Systems\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CircleModel.cpp">
+      <Filter>Systems\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LineModel.cpp">
+      <Filter>Systems\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PointModel.cpp">
+      <Filter>Systems\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\QuadModel.cpp">
+      <Filter>Systems\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TriangleModel.cpp">
+      <Filter>Systems\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SoundManager.cpp">
+      <Filter>Systems\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\imgui-1.89.9-docking\backends\imgui_impl_glfw.cpp">
+      <Filter>Libraries\ImGUI\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\imgui-1.89.9-docking\backends\imgui_impl_opengl3.cpp">
+      <Filter>Libraries\ImGUI\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\imgui-1.89.9-docking\imgui.cpp">
+      <Filter>Libraries\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\imgui-1.89.9-docking\imgui_demo.cpp">
+      <Filter>Libraries\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\imgui-1.89.9-docking\imgui_draw.cpp">
+      <Filter>Libraries\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\imgui-1.89.9-docking\imgui_tables.cpp">
+      <Filter>Libraries\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\imgui-1.89.9-docking\imgui_widgets.cpp">
+      <Filter>Libraries\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BoxModel.cpp">
+      <Filter>Systems\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player.cpp">
+      <Filter>Components\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collider_AABB.cpp">
+      <Filter>Components\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysicsComponent.cpp">
+      <Filter>Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerCollisionHandler.cpp">
+      <Filter>Components\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collider_Circle.cpp">
+      <Filter>Components\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AnimationComponent.cpp">
+      <Filter>Components\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AnimationSystem.cpp">
+      <Filter>Systems\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameUIManager.cpp">
+      <Filter>Systems\GameUI Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DebugLogger.cpp">
+      <Filter>Systems\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AIComponent.cpp">
+      <Filter>Components\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Transform.cpp">
+      <Filter>Components\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer.cpp">
+      <Filter>Components\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameUITextHandler.cpp">
+      <Filter>Components\EventHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MonoManager.cpp">
+      <Filter>Mono</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CSScriptComponent.cpp">
+      <Filter>Components\CSScript</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AIManager.cpp">
+      <Filter>Systems\AIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TileComponent.cpp">
+      <Filter>Components\MapCreation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GridModel.cpp">
+      <Filter>Systems\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EngineDll.cpp">
+      <Filter>Mono</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GfxHandler.cpp">
+      <Filter>Components\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AssetManager.cpp">
+      <Filter>Systems\AssetManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LevelLoader.cpp">
+      <Filter>Systems\LevelLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameScene.cpp">
+      <Filter>Scenes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\imgui-1.89.9-docking\misc\cpp\imgui_stdlib.cpp">
+      <Filter>Libraries\ImGUI\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIButton.cpp">
+      <Filter>Components\UIButton</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ButtonWrapper.cpp">
+      <Filter>Components\UIButton\ButtonWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameUIObjectHandler.cpp">
+      <Filter>Components\EventHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Key.cpp">
+      <Filter>Components\StageObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EventManager.cpp">
+      <Filter>Systems\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainMenuScene.cpp">
+      <Filter>Scenes\Main Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VFXEntity.cpp">
+      <Filter>Components\VFX</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\KeyWall.cpp">
+      <Filter>Components\StageObjs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIButton_PauseMenu.cpp">
+      <Filter>Components\UIButton</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIButton_HowToPlay.cpp">
+      <Filter>Components\UIButton</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIButton_ExitMenu.cpp">
+      <Filter>Components\UIButton</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EndGoal.cpp">
+      <Filter>Components\EndGoal</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIButton_RestartStart.cpp">
+      <Filter>Components\UIButton</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MyImGui.cpp">
+      <Filter>Components\MyImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Wind.cpp">
+      <Filter>Components\StageObjs\Wind</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayOnceSoundComponent.cpp">
+      <Filter>Components\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ButtonSelectManager.cpp">
+      <Filter>Systems\ButtonSelectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIButton_SpawnPrefab.cpp">
+      <Filter>Components\UIButton</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CamWaypoint.cpp">
+      <Filter>Systems\Graphics\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIButton_Keybind.cpp">
+      <Filter>Components\UIButton</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleSystem.cpp">
+      <Filter>Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIButton_ChangeScene.cpp">
+      <Filter>Components\UIButton</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LevelManager.cpp">
+      <Filter>Systems\LevelLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Matrix4x4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Vector4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DialogueTrigger.cpp">
+      <Filter>Components\DialogueTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NextCheckpointCollisionHandler.cpp">
+      <Filter>Components\EventHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CinematicBars.cpp">
+      <Filter>Components\Cinematic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DragDrop.cpp">
+      <Filter>Systems\DragDrop</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OpeningDialogueScene.cpp">
+      <Filter>Scenes\OpeningDialogue</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BossScene.cpp">
+      <Filter>Scenes\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainMenuTransitionScene.cpp">
+      <Filter>Scenes\MainMenuTransition</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SoundComponent.cpp">
+      <Filter>Components\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EndScene.cpp">
+      <Filter>Scenes\End</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIButton_VolumeChanger.cpp">
+      <Filter>Components\UIButton</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EndingDialogueScene.cpp">
+      <Filter>Scenes\EndingDialogue</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CreditsScene.cpp">
+      <Filter>Scenes\Credits</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SplashScreenScene.cpp">
+      <Filter>Scenes\Splash Screen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\WindowsManager.h">
+      <Filter>Systems\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GraphicsSystem.h">
+      <Filter>Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Singleton.h">
+      <Filter>Systems\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene.h">
+      <Filter>Scenes\Scene Base Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ComponentManager.h">
+      <Filter>Systems\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EntityManager.h">
+      <Filter>Systems\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ComponentArray.h">
+      <Filter>Systems\ECS\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ECS_Types.h">
+      <Filter>Systems\ECS\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Entity.h">
+      <Filter>Systems\ECS\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneManager.h">
+      <Filter>Systems\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Manager.h">
+      <Filter>Systems\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TextManager.h">
+      <Filter>Systems\TextManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InputManager.h">
+      <Filter>Systems\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\JSONManager.h">
+      <Filter>Systems\JsonManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CoreEngine.h">
+      <Filter>Systems\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LibraryManager.h">
+      <Filter>Systems\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EditorMainScene.h">
+      <Filter>Scenes\EditorMain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Matrix3x3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vector3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MathDefines.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysicsSystem.h">
+      <Filter>Systems\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>Systems\Graphics\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Model.h">
+      <Filter>Systems\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture.h">
+      <Filter>Systems\Graphics\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Shader.h">
+      <Filter>Systems\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CircleModel.h">
+      <Filter>Systems\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LineModel.h">
+      <Filter>Systems\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PointModel.h">
+      <Filter>Systems\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\QuadModel.h">
+      <Filter>Systems\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TriangleModel.h">
+      <Filter>Systems\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SoundManager.h">
+      <Filter>Systems\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\imgui-1.89.9-docking\backends\imgui_impl_glfw.h">
+      <Filter>Libraries\ImGUI\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\imgui-1.89.9-docking\backends\imgui_impl_opengl3.h">
+      <Filter>Libraries\ImGUI\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\imgui-1.89.9-docking\backends\imgui_impl_opengl3_loader.h">
+      <Filter>Libraries\ImGUI\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\imgui-1.89.9-docking\imconfig.h">
+      <Filter>Libraries\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\imgui-1.89.9-docking\imgui.h">
+      <Filter>Libraries\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\imgui-1.89.9-docking\imgui_internal.h">
+      <Filter>Libraries\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\imgui-1.89.9-docking\imstb_rectpack.h">
+      <Filter>Libraries\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\imgui-1.89.9-docking\imstb_textedit.h">
+      <Filter>Libraries\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\imgui-1.89.9-docking\imstb_truetype.h">
+      <Filter>Libraries\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\error\en.h">
+      <Filter>Libraries\rapidJSON\error</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\error\error.h">
+      <Filter>Libraries\rapidJSON\error</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\biginteger.h">
+      <Filter>Libraries\rapidJSON\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\clzll.h">
+      <Filter>Libraries\rapidJSON\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\diyfp.h">
+      <Filter>Libraries\rapidJSON\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\dtoa.h">
+      <Filter>Libraries\rapidJSON\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\ieee754.h">
+      <Filter>Libraries\rapidJSON\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\itoa.h">
+      <Filter>Libraries\rapidJSON\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\meta.h">
+      <Filter>Libraries\rapidJSON\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\pow10.h">
+      <Filter>Libraries\rapidJSON\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\regex.h">
+      <Filter>Libraries\rapidJSON\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\stack.h">
+      <Filter>Libraries\rapidJSON\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\strfunc.h">
+      <Filter>Libraries\rapidJSON\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\strtod.h">
+      <Filter>Libraries\rapidJSON\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\internal\swap.h">
+      <Filter>Libraries\rapidJSON\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\msinttypes\inttypes.h">
+      <Filter>Libraries\rapidJSON\msinttypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\msinttypes\stdint.h">
+      <Filter>Libraries\rapidJSON\msinttypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\allocators.h">
+      <Filter>Libraries\rapidJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\cursorstreamwrapper.h">
+      <Filter>Libraries\rapidJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\document.h">
+      <Filter>Libraries\rapidJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\encodedstream.h">
+      <Filter>Libraries\rapidJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\encodings.h">
+      <Filter>Libraries\rapidJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\filereadstream.h">
+      <Filter>Libraries\rapidJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\filewritestream.h">
+      <Filter>Libraries\rapidJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\fwd.h">
+      <Filter>Libraries\rapidJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\istreamwrapper.h">
+      <Filter>Libraries\rapidJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\memorybuffer.h">
+      <Filter>Libraries\rapidJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\memorystream.h">
+      <Filter>Libraries\rapidJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\ostreamwrapper.h">
+      <Filter>Libraries\rapidJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\pointer.h">
+      <Filter>Libraries\rapidJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\prettywriter.h">
+      <Filter>Libraries\rapidJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\rapidjson.h">
+      <Filter>Libraries\rapidJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\reader.h">
+      <Filter>Libraries\rapidJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\schema.h">
+      <Filter>Libraries\rapidJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\stream.h">
+      <Filter>Libraries\rapidJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\stringbuffer.h">
+      <Filter>Libraries\rapidJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\uri.h">
+      <Filter>Libraries\rapidJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\rapidjson-1.1.0\writer.h">
+      <Filter>Libraries\rapidJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BoxModel.h">
+      <Filter>Systems\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collider_AABB.h">
+      <Filter>Components\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collision.h">
+      <Filter>Systems\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player.h">
+      <Filter>Components\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FontCharacter.h">
+      <Filter>Systems\TextManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ComponentBase.h">
+      <Filter>Components\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ComponentsHeader.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EventManager.h">
+      <Filter>Systems\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EventList.h">
+      <Filter>Systems\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Observer.h">
+      <Filter>Components\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer.h">
+      <Filter>Components\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysicsComponent.h">
+      <Filter>Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerCollisionHandler.h">
+      <Filter>Components\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EnemyCollisionHandler.h">
+      <Filter>Components\EventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EventsHeader.h">
+      <Filter>Systems\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collider_Circle.h">
+      <Filter>Components\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameUIManager.h">
+      <Filter>Systems\GameUI Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameUIObjectHandler.h">
+      <Filter>Components\EventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameUITextHandler.h">
+      <Filter>Components\EventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DebugLogger.h">
+      <Filter>Systems\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AIComponent.h">
+      <Filter>Components\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Transform.h">
+      <Filter>Components\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MonoManager.h">
+      <Filter>Mono</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EngineDll.h">
+      <Filter>Mono</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CSScriptComponent.h">
+      <Filter>Components\CSScript</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Animation.h">
+      <Filter>Systems\Graphics\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AnimationComponent.h">
+      <Filter>Components\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AnimationSystem.h">
+      <Filter>Systems\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AIManager.h">
+      <Filter>Systems\AIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TileComponent.h">
+      <Filter>Components\MapCreation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GridModel.h">
+      <Filter>Systems\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GfxHandler.h">
+      <Filter>Components\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AssetManager.h">
+      <Filter>Systems\AssetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LevelLoader.h">
+      <Filter>Systems\LevelLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameScene.h">
+      <Filter>Scenes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SoundComponent.h">
+      <Filter>Components\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\imgui-1.89.9-docking\misc\cpp\imgui_stdlib.h">
+      <Filter>Libraries\ImGUI\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UIButton.h">
+      <Filter>Components\UIButton</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UIButton_Test.h">
+      <Filter>Components\UIButton</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ButtonWrapper.h">
+      <Filter>Components\UIButton\ButtonWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UIButton_Unpause.h">
+      <Filter>Components\UIButton</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UIButton_CloseMenu.h">
+      <Filter>Components\UIButton</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\KeyCollisionHandler.h">
+      <Filter>Components\EventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Key.h">
+      <Filter>Components\StageObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UIButton_ExitGame.h">
+      <Filter>Components\UIButton</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MainMenuScene.h">
+      <Filter>Scenes\Main Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\VFXEntity.h">
+      <Filter>Components\VFX</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\KeyWall.h">
+      <Filter>Components\StageObjs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\KeyWallCollisionHandler.h">
+      <Filter>Components\EventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UIButton_PauseMenu.h">
+      <Filter>Components\UIButton</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UIButton_HowToPlay.h">
+      <Filter>Components\UIButton</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UIButton_ExitMenu.h">
+      <Filter>Components\UIButton</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EndGoal.h">
+      <Filter>Components\EndGoal</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UIButton_RestartStart.h">
+      <Filter>Components\UIButton</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MyImGui.h">
+      <Filter>Components\MyImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Wind.h">
+      <Filter>Components\StageObjs\Wind</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WindCollisionHandler.h">
+      <Filter>Components\StageObjs\Wind</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayOnceSoundComponent.h">
+      <Filter>Components\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ButtonSelectManager.h">
+      <Filter>Systems\ButtonSelectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UIButton_SpawnPrefab.h">
+      <Filter>Components\UIButton</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CamWaypoint.h">
+      <Filter>Systems\Graphics\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UIButton_Keybind.h">
+      <Filter>Components\UIButton</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleSystem.h">
+      <Filter>Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UIButton_ChangeScene.h">
+      <Filter>Components\UIButton</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LevelManager.h">
+      <Filter>Systems\LevelLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Matrix4x4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vector4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DialogueTrigger.h">
+      <Filter>Components\DialogueTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NextCheckpointCollisionHandler.h">
+      <Filter>Components\EventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CinematicBars.h">
+      <Filter>Components\Cinematic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DragDrop.h">
+      <Filter>Systems\DragDrop</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OpeningDialogueScene.h">
+      <Filter>Scenes\OpeningDialogue</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BossScene.h">
+      <Filter>Scenes\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MainMenuTransitionScene.h">
+      <Filter>Scenes\MainMenuTransition</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EndScene.h">
+      <Filter>Scenes\End</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UIButton_VolumeChanger.h">
+      <Filter>Components\UIButton</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EndingDialogueScene.h">
+      <Filter>Scenes\EndingDialogue</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CreditsScene.h">
+      <Filter>Scenes\Credits</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SplashScreenScene.h">
+      <Filter>Scenes\Splash Screen</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Assets\Shaders\BasicShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\BasicShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\FontShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\FontShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\Animation.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\Animation.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\GridShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\GridShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\GfxDebug.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\GfxDebug.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\AIShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\AIShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\BGParallaxA.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\BGParallaxA.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\LaserShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\LaserShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\WindShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\WindShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\PlayerBodyShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\PlayerBodyShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\BGParallaxZ.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\BGParallaxZ.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="ClassDiagram_original.cd" />
+    <None Include="..\..\Assets\Shaders\KeyWallShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\KeyWallShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\NotBasicShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\NotBasicShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+    <None Include="..\..\Assets\Shaders\BloomShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\BloomShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\MainMenuShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\MainMenuShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\ButtonUIShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\ButtonUIShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\ButtonUIShader2.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\ButtonUIShader2.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\HB1_FocusRingShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\HB1_FocusRingShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\HB2_HyperBeamShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\HB2_HyperBeamShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\HB2_HyperGlowShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\HB2_HyperGlowShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\GfxScaleRotate.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\GfxScaleRotate.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\TileShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\TileShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\ButtonUIShader3.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\ButtonUIShader3.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\ButtonUIShader4.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\ButtonUIShader4.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Engine.rc" />
+  </ItemGroup>
+</Project>

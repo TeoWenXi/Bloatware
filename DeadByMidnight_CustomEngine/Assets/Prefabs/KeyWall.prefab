@@ -1,0 +1,78 @@
+{
+    "Prefab": [
+        {
+            "Name": "KeyWall",
+            "Prefab": "KeyWall"
+        },
+        {
+            "Component": "Transform",
+            "Position": [
+                50.1934814453125,
+                -12.400455474853516,
+                0.0
+            ],
+            "LocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": [
+                33.29999923706055,
+                50.0,
+                0.0
+            ],
+            "Rotation": 0.0
+        },
+        {
+            "Component": "Renderer",
+            "ModelType": 7,
+            "ShaderName": "KeyWallShader",
+            "TextureName": "Wall",
+            "RenderLayer": 2
+        },
+        {
+            "Component": "PhysicsComponent",
+            "CurrentVelocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "CurrentAcceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Gravity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Force": 0.0,
+            "Mass": 1.0,
+            "Is_Char_Small": false,
+            "JumpMultiplier": 0.0,
+            "JumpVelocity": 0.0,
+            "Coeff_Of_Friction": 0.0
+        },
+        {
+            "Component": "Collider_AABB",
+            "Min": [
+                33.543479919433594,
+                -37.400455474853516,
+                0.0
+            ],
+            "Max": [
+                66.8434829711914,
+                12.599544525146484,
+                0.0
+            ]
+        },
+        {
+            "Component": "KeyWall",
+            "mLocked": true
+        },
+        {
+            "Component": "KeyWallCollisionHandler"
+        }
+    ]
+}

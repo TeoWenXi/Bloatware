@@ -1,0 +1,117 @@
+{
+    "Prefab": [
+        {
+            "Name": "DemoEnd Prefab",
+            "Prefab": "Key"
+        },
+        {
+            "Component": "Transform",
+            "Position": [
+                120.0,
+                -37.0,
+                50.0
+            ],
+            "LocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": [
+                800.0,
+                600.0,
+                0.0
+            ],
+            "Rotation": 0.0
+        },
+        {
+            "Component": "GameUIObjectHandler"
+        },
+        {
+            "Child": [
+                {
+                    "Name": "DemoEnd Background",
+                    "Prefab": ""
+                },
+                {
+                    "Component": "Transform",
+                    "Position": [
+                        120.0,
+                        -37.0,
+                        50.0
+                    ],
+                    "LocalPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        400.0,
+                        240.0,
+                        0.0
+                    ],
+                    "Rotation": 0.0
+                },
+                {
+                    "Component": "Renderer",
+                    "ModelType": 7,
+                    "ShaderName": "BasicShader",
+                    "TextureName": "DemoEnd",
+                    "RenderLayer": 2
+                }
+            ]
+        },
+        {
+            "Child": [
+                {
+                    "Name": "RestartButton",
+                    "Prefab": ""
+                },
+                {
+                    "Component": "Transform",
+                    "Position": [
+                        120.0,
+                        -87.0,
+                        50.0
+                    ],
+                    "LocalPosition": [
+                        0.0,
+                        -50.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        40.0,
+                        15.0,
+                        0.0
+                    ],
+                    "Rotation": 0.0
+                },
+                {
+                    "Component": "GameUITextHandler",
+                    "Text": "Restart",
+                    "Font": "ConduitITCBold",
+                    "FontSize": 13,
+                    "Pos": [
+                        -18.0,
+                        -4.0,
+                        0.0
+                    ],
+                    "Color": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                {
+                    "Component": "SoundComponent",
+                    "SoundName": "SFX_MenuSelectNew",
+                    "Volume": 0.5,
+                    "Pitch": 1.0
+                },
+                {
+                    "Component": "ButtonWrapper",
+                    "ButtonType": 5
+                }
+            ]
+        }
+    ]
+}

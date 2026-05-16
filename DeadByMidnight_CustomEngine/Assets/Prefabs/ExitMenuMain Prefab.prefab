@@ -1,0 +1,271 @@
+{
+    "Prefab": [
+        {
+            "Name": "ExitMenuMain Prefab",
+            "Prefab": "ExitMenuMain Prefab"
+        },
+        {
+            "Component": "Transform",
+            "Position": [
+                91.99396514892578,
+                -96.02330780029297,
+                50.0
+            ],
+            "LocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Rotation": 0.0
+        },
+        {
+            "Component": "GameUIObjectHandler"
+        },
+        {
+            "Component": "SoundComponent",
+            "SoundName": "SFX_menu_open_new",
+            "Volume": 1.0,
+            "Pitch": 1.0
+        },
+        {
+            "Child": [
+                {
+                    "Name": "ExitMenu Background",
+                    "Prefab": ""
+                },
+                {
+                    "Component": "Transform",
+                    "Position": [
+                        91.99396514892578,
+                        -96.02330780029297,
+                        50.0
+                    ],
+                    "LocalPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        800.0,
+                        600.0,
+                        0.0
+                    ],
+                    "Rotation": 0.0
+                },
+                {
+                    "Component": "Renderer",
+                    "ModelType": 7,
+                    "ShaderName": "BasicShader",
+                    "TextureName": "Misc_PauseMenuOverlay",
+                    "RenderLayer": 2,
+                    "Enabled": true
+                }
+            ]
+        },
+        {
+            "Child": [
+                {
+                    "Name": "ExitText Header",
+                    "Prefab": ""
+                },
+                {
+                    "Component": "Transform",
+                    "Position": [
+                        -44.00603485107422,
+                        -84.02330780029297,
+                        50.0
+                    ],
+                    "LocalPosition": [
+                        -136.0,
+                        12.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Rotation": 0.0
+                },
+                {
+                    "Component": "GameUITextHandler",
+                    "Text": "QUIT GAME?",
+                    "Font": "ConduitITCBold",
+                    "FontSize": 15,
+                    "Pos": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Color": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Alpha": 1.0
+                }
+            ]
+        },
+        {
+            "Child": [
+                {
+                    "Name": "ExitText Body",
+                    "Prefab": ""
+                },
+                {
+                    "Component": "Transform",
+                    "Position": [
+                        -44.00603485107422,
+                        -99.02330780029297,
+                        50.0
+                    ],
+                    "LocalPosition": [
+                        -136.0,
+                        -3.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Rotation": 0.0
+                },
+                {
+                    "Component": "GameUITextHandler",
+                    "Text": "All current progress will be lost.",
+                    "Font": "ConduitITCBold",
+                    "FontSize": 9,
+                    "Pos": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Color": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Alpha": 1.0
+                }
+            ]
+        },
+        {
+            "Child": [
+                {
+                    "Name": "ExitGame Button",
+                    "Prefab": ""
+                },
+                {
+                    "Component": "Transform",
+                    "Position": [
+                        -32.00603485107422,
+                        -115.02330780029297,
+                        50.0
+                    ],
+                    "LocalPosition": [
+                        -124.0,
+                        -19.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        30.0,
+                        15.0,
+                        0.0
+                    ],
+                    "Rotation": 0.0
+                },
+                {
+                    "Component": "GameUITextHandler",
+                    "Text": "Yes",
+                    "Font": "ConduitITCBold",
+                    "FontSize": 10,
+                    "Pos": [
+                        -12.0,
+                        -4.0,
+                        0.0
+                    ],
+                    "Color": [
+                        0.20000000298023224,
+                        0.20000000298023224,
+                        0.20000000298023224
+                    ],
+                    "Alpha": 1.0
+                },
+                {
+                    "Component": "SoundComponent",
+                    "SoundName": "SFX_menu_select_new",
+                    "Volume": 0.75,
+                    "Pitch": 1.0
+                },
+                {
+                    "Component": "ButtonWrapper",
+                    "ButtonType": 2,
+                    "ButtonOrderPosition": 0,
+                    "InputField": ""
+                }
+            ]
+        },
+        {
+            "Child": [
+                {
+                    "Name": "PauseMenu Button",
+                    "Prefab": ""
+                },
+                {
+                    "Component": "Transform",
+                    "Position": [
+                        -36.00603485107422,
+                        -132.0233154296875,
+                        50.0
+                    ],
+                    "LocalPosition": [
+                        -128.0,
+                        -36.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        30.0,
+                        15.0,
+                        0.0
+                    ],
+                    "Rotation": 0.0
+                },
+                {
+                    "Component": "GameUITextHandler",
+                    "Text": "No",
+                    "Font": "ConduitITCBold",
+                    "FontSize": 10,
+                    "Pos": [
+                        -8.0,
+                        -3.0,
+                        0.0
+                    ],
+                    "Color": [
+                        0.20000000298023224,
+                        0.20000000298023224,
+                        0.20000000298023224
+                    ],
+                    "Alpha": 1.0
+                },
+                {
+                    "Component": "SoundComponent",
+                    "SoundName": "SFX_menu_select_new",
+                    "Volume": 0.75,
+                    "Pitch": 1.0
+                },
+                {
+                    "Component": "ButtonWrapper",
+                    "ButtonType": 12,
+                    "ButtonOrderPosition": 1,
+                    "InputField": "PressToStart Prefab"
+                }
+            ]
+        }
+    ]
+}

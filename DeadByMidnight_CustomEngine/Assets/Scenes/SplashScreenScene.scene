@@ -1,0 +1,270 @@
+{
+    "SceneName": "SplashScreenScene",
+    "BackgroundColor": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582,
+        1.0
+    ],
+    "EditorCameraSpeed": -1.0,
+    "CameraThresholdHorizontal": [
+        0.0,
+        0.0,
+        1.0
+    ],
+    "CameraThresholdVertical": [
+        0.0,
+        0.0,
+        1.0
+    ],
+    "CameraWaypoints": [
+        {
+            "Position": [
+                120.0,
+                -37.0,
+                50.0
+            ],
+            "Zoom": 1.0,
+            "TrackPlayer": false,
+            "PlayerSpawnPos": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "HoldVertical": false,
+            "HoldHorizontal": false,
+            "ClampEnabled": false,
+            "ClampVertRange": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "ClampHoriRange": [
+                0.0,
+                0.0,
+                1.0
+            ]
+        }
+    ],
+    "GameObjects": [
+        [
+            {
+                "Name": "SplashScreenObjects",
+                "Prefab": "PressToStart Prefab"
+            },
+            {
+                "Component": "Transform",
+                "Position": [
+                    0.0,
+                    0.0,
+                    50.0
+                ],
+                "LocalPosition": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": 0.0
+            },
+            {
+                "Component": "GameUIObjectHandler"
+            },
+            {
+                "Child": [
+                    {
+                        "Name": "SplashScreenOverlay",
+                        "Prefab": ""
+                    },
+                    {
+                        "Component": "Transform",
+                        "Position": [
+                            0.0,
+                            0.0,
+                            50.0
+                        ],
+                        "LocalPosition": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Scale": [
+                            500.0,
+                            300.0,
+                            0.0
+                        ],
+                        "Rotation": 0.0
+                    },
+                    {
+                        "Component": "Renderer",
+                        "ModelType": 7,
+                        "ShaderName": "BasicShader",
+                        "TextureName": "blackSquare",
+                        "RenderLayer": 4,
+                        "Enabled": true,
+                        "AlphaValue": 1.0,
+                        "CustomAlpha": true
+                    }
+                ]
+            },
+            {
+                "Child": [
+                    {
+                        "Name": "Digipen Logo",
+                        "Prefab": ""
+                    },
+                    {
+                        "Component": "Transform",
+                        "Position": [
+                            0.0,
+                            0.0,
+                            50.0
+                        ],
+                        "LocalPosition": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Scale": [
+                            266.0,
+                            150.0,
+                            0.0
+                        ],
+                        "Rotation": 0.0
+                    },
+                    {
+                        "Component": "Renderer",
+                        "ModelType": 7,
+                        "ShaderName": "BasicShader",
+                        "TextureName": "digipenlogo_withcopyright",
+                        "RenderLayer": 4,
+                        "Enabled": true,
+                        "AlphaValue": 0.0,
+                        "CustomAlpha": true
+                    }
+                ]
+            },
+            {
+                "Child": [
+                    {
+                        "Name": "Group Logo",
+                        "Prefab": ""
+                    },
+                    {
+                        "Component": "Transform",
+                        "Position": [
+                            0.0,
+                            0.0,
+                            50.0
+                        ],
+                        "LocalPosition": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Scale": [
+                            150.0,
+                            150.0,
+                            0.0
+                        ],
+                        "Rotation": 0.0
+                    },
+                    {
+                        "Component": "Renderer",
+                        "ModelType": 7,
+                        "ShaderName": "BasicShader",
+                        "TextureName": "Logo_DeadByMidnight",
+                        "RenderLayer": 4,
+                        "Enabled": true,
+                        "AlphaValue": 0.0,
+                        "CustomAlpha": true
+                    }
+                ]
+            },
+            {
+                "Child": [
+                    {
+                        "Name": "FMOD Logo",
+                        "Prefab": ""
+                    },
+                    {
+                        "Component": "Transform",
+                        "Position": [
+                            0.0,
+                            0.0,
+                            50.0
+                        ],
+                        "LocalPosition": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Scale": [
+                            245.0,
+                            150.0,
+                            0.0
+                        ],
+                        "Rotation": 0.0
+                    },
+                    {
+                        "Component": "Renderer",
+                        "ModelType": 7,
+                        "ShaderName": "BasicShader",
+                        "TextureName": "Logo_Fmod_Splash",
+                        "RenderLayer": 4,
+                        "Enabled": true,
+                        "AlphaValue": 0.0,
+                        "CustomAlpha": true
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "Name": "FPSCounter",
+                "Prefab": ""
+            },
+            {
+                "Component": "Transform",
+                "Position": [
+                    0.0,
+                    85.0,
+                    50.0
+                ],
+                "LocalPosition": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": 0.0
+            },
+            {
+                "Component": "GameUITextHandler",
+                "Text": "",
+                "Font": "EvanstonTavern-1858Regular",
+                "FontSize": 10,
+                "Pos": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Color": [
+                    0.0,
+                    1.0,
+                    1.0
+                ],
+                "Alpha": 1.0,
+                "RenderLayer": 4
+            }
+        ]
+    ]
+}

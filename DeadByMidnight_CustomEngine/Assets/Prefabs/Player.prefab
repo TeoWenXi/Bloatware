@@ -1,0 +1,252 @@
+{
+    "Prefab": [
+        {
+            "Name": "Player",
+            "Prefab": ""
+        },
+        {
+            "Component": "Transform",
+            "Position": [
+                -10.370071411132813,
+                -74.39773559570313,
+                1.0
+            ],
+            "LocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": [
+                11.25,
+                11.25,
+                1.0
+            ],
+            "Rotation": -4.122804641723633
+        },
+        {
+            "Component": "Renderer",
+            "ModelType": 7,
+            "ShaderName": "BasicShader",
+            "TextureName": "placeholder",
+            "RenderLayer": 2,
+            "Enabled": false,
+            "AlphaValue": -1.0,
+            "CustomAlpha": false
+        },
+        {
+            "Component": "PhysicsComponent",
+            "CurrentVelocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "CurrentAcceleration": [
+                0.0,
+                -80.0,
+                0.0
+            ],
+            "Gravity": [
+                0.0,
+                370.0,
+                0.0
+            ],
+            "Force": 0.0,
+            "mMass": 5.0,
+            "Mass": 5.0,
+            "mObjBigScale": [
+                11.25,
+                11.25,
+                1.0
+            ],
+            "Is_Char_Small": false,
+            "JumpMultiplier": 1.2000000476837158,
+            "JumpVelocity": 0.0,
+            "Coeff_Of_Friction": 0.0
+        },
+        {
+            "Component": "Collider_AABB",
+            "Min": [
+                -15.995071411132813,
+                -108.0,
+                0.0
+            ],
+            "Max": [
+                -4.7450714111328125,
+                -96.75,
+                0.0
+            ]
+        },
+        {
+            "Component": "Player",
+            "JumpStrength": 300.0,
+            "MoveSpeed": 80.0,
+            "IsOnGround": true,
+            "DeathText": ">>EXECUTE RESTART",
+            "DeathFont": "EvanstonTavern-1858Regular",
+            "DeathTextTime": 2.5
+        },
+        {
+            "Component": "TileComponent",
+            "TileSize": 18,
+            "MapWidth": 207,
+            "MapHeight": 42,
+            "ObjectType": 0,
+            "Flag": 3,
+            "GridCollisionFlag": 8
+        },
+        {
+            "Component": "PlayerCollisionHandler"
+        },
+        {
+            "Component": "DialogueTrigger",
+            "triggerType": 1,
+            "triggers": "Ooooh burn!+VOICE_OohBurn|Hey genius, here's a hint! Red thing makes you go boom!+VOICE_RedThingMakesYouGoBoom|I smell human bacon.+VOICE_HumanBacon|How about trying NOT to touch the lasers?+VOICE_NotToTouchTheLasers|I think I give humans too much credit...+VOICE_TooMuchCredit|Wow... you humans were worse than I thought.+VOICE_WowWorseThanIThought|Gottem!+VOICE_Gottem|Wow I didn't think you would fall for that+VOICE_FallForThat|Awww your misery makes me so happy+VOICE_MiserySoHappy|Hmm... you make me wonder if humans really did evolve+VOICE_HumansEvolve|",
+            "deathThreshold": -1,
+            "CutsceneDuration": -1.0,
+            "CinematicBarExpandingDuration": -1.0,
+            "VerticalBarsOnly": 0,
+            "DisablePlayerGravity": -1.0,
+            "DelayPlayerRespawnTimer": -1.0,
+            "CutSceneNum": -1,
+            "FadeTimer": -1.0
+        },
+        {
+            "Child": [
+                {
+                    "Name": "PlayerBodySprite",
+                    "Prefab": ""
+                },
+                {
+                    "Component": "Transform",
+                    "Position": [
+                        -10.370071411132813,
+                        -74.39773559570313,
+                        1.0
+                    ],
+                    "LocalPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        11.25,
+                        11.25,
+                        1.0
+                    ],
+                    "Rotation": 0.0
+                },
+                {
+                    "Component": "Renderer",
+                    "ModelType": 7,
+                    "ShaderName": "PlayerBodyShader",
+                    "TextureName": "Character_PixelSlimeBody",
+                    "RenderLayer": 2,
+                    "Enabled": true,
+                    "AlphaValue": -1.0,
+                    "CustomAlpha": false
+                }
+            ]
+        },
+        {
+            "Child": [
+                {
+                    "Name": "PlayerEyeHolder",
+                    "Prefab": ""
+                },
+                {
+                    "Component": "Transform",
+                    "Position": [
+                        -10.370071411132813,
+                        -74.39773559570313,
+                        1.0
+                    ],
+                    "LocalPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        11.25,
+                        11.25,
+                        1.0
+                    ],
+                    "Rotation": 0.0
+                }
+            ]
+        },
+        {
+            "Child": [
+                {
+                    "Name": "PlayerLeftEyeSprite",
+                    "Prefab": ""
+                },
+                {
+                    "Component": "Transform",
+                    "Position": [
+                        -10.370071411132813,
+                        -74.39773559570313,
+                        1.0
+                    ],
+                    "LocalPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        11.25,
+                        11.25,
+                        1.0
+                    ],
+                    "Rotation": 0.0
+                },
+                {
+                    "Component": "Renderer",
+                    "ModelType": 7,
+                    "ShaderName": "BasicShader",
+                    "TextureName": "Character_PixelSlimeEye",
+                    "RenderLayer": 2,
+                    "Enabled": true,
+                    "AlphaValue": -1.0,
+                    "CustomAlpha": false
+                }
+            ]
+        },
+        {
+            "Child": [
+                {
+                    "Name": "PlayerRightEyeSprite",
+                    "Prefab": ""
+                },
+                {
+                    "Component": "Transform",
+                    "Position": [
+                        -10.370071411132813,
+                        -74.39773559570313,
+                        1.0
+                    ],
+                    "LocalPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        11.25,
+                        11.25,
+                        1.0
+                    ],
+                    "Rotation": 0.0
+                },
+                {
+                    "Component": "Renderer",
+                    "ModelType": 7,
+                    "ShaderName": "BasicShader",
+                    "TextureName": "Character_PixelSlimeEye",
+                    "RenderLayer": 2,
+                    "Enabled": true,
+                    "AlphaValue": -1.0,
+                    "CustomAlpha": false
+                }
+            ]
+        }
+    ]
+}

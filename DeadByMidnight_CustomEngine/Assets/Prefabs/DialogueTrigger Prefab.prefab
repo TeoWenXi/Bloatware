@@ -1,0 +1,40 @@
+{
+    "Prefab": [
+        {
+            "Name": "DialogueTrigger Prefab",
+            "Prefab": "sprite"
+        },
+        {
+            "Component": "Transform",
+            "Position": [
+                9.0,
+                -45.0,
+                50.0
+            ],
+            "LocalPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Scale": [
+                20.0,
+                20.0,
+                0.0
+            ],
+            "Rotation": 0.0
+        },
+        {
+            "Component": "Renderer",
+            "ModelType": 4,
+            "ShaderName": "BasicShader",
+            "TextureName": "placeholder",
+            "RenderLayer": 0,
+            "Enabled": true
+        },
+        {
+            "Component": "DialogueTrigger",
+            "triggerType": 0,
+            "Triggers": "+|"
+        }
+    ]
+}

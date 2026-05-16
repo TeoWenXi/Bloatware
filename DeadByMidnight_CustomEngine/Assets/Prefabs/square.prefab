@@ -1,0 +1,36 @@
+{
+    "Prefab": [
+		{
+			"Name": "Square Prefab",
+            "Prefab": ""
+		},
+		{
+			"Component": "Transform",
+			"Position": [
+				0,
+				0,
+				0
+			],
+			"Scale": [
+				10,
+				10,
+				0
+			],
+			"Rotation": 45
+		},
+		{
+			"Component": "Renderer",
+			"ModelType": 5,
+			"ShaderName": "BasicShader",
+			"TextureName": "placeholder"
+		},
+		{
+			"Component": "Collider",
+			"Size": [
+				50,
+				40
+			],
+			"Type": "Box"
+		}
+    ]
+}
