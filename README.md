@@ -1,6 +1,6 @@
 <!-- Title -->
 <p align="center">
-  <img src="Readme_docs/Banner.gif" alt="Bloatware Banner" width="900"/>
+  <img src="Readme_docs/Banner.gif" alt="Bloatware Banner" width="100%"/>
 </p>
 
 <!-- Shields Icons -->
@@ -27,13 +27,13 @@
 </p>
 
 <p align="center" style="max-width: 850px;">
-  Master size-shifting mechanics to navigate physics-based environments, overcome adaptive AI systems, and infiltrate AXIOM’s core to deploy a destructive virus.
+  Master size-shifting mechanics to navigate physics-based environments, <br> overcome adaptive AI systems, and infiltrate AXIOM’s core to deploy a destructive virus.
 </p>
 
 <!-- Trailer -->
 <p align="center">
   <a href="https://www.youtube.com/watch?v=JPPYLP-RWhg">
-    <img src="Readme_docs/GameVideo_Thumbnail.png" width="900"/>
+    <img src="Readme_docs/GameVideo_Thumbnail.png" width="80%"/>
   </a>
 </p>
 
@@ -70,7 +70,7 @@ Bloatware runs on a custom-built 2D engine developed in-house by the team.
 
 ### ▶️ Engine Showcase
 <a href="https://youtu.be/YAhNnFIgZpA">
-    <img src="Readme_docs/EngineVideo_Thumbnail.png" width="900"/>
+    <img src="Readme_docs/EngineVideo_Thumbnail.png" width="100%"/>
   </a>
 
 It handles:
@@ -148,10 +148,10 @@ Menu → Tutorial → Main Levels → Mid Cutscene → Boss Mode (AXIOM) → End
 <!--- Members --->
 ## 👥 Team Members
 
-<table>
+<table style="width:100%; table-layout:fixed;">
   <tr>
     <!--- Mong Chuan --->
-    <td align="center" style="padding:20px" width=300>
+    <td align="center" style="padding:20px" width="300">
       <br>
       <img src="https://github.com/mongchuan.png?size=200" width="100" height="100" style="border-radius:25%;" />
       <h3>Sim Mong Chuan</h3>
@@ -173,7 +173,7 @@ Menu → Tutorial → Main Levels → Mid Cutscene → Boss Mode (AXIOM) → End
       <br>
     </td>
     <!--- Wen Xi --->
-    <td align="center" style="padding:20px" width=300>
+    <td align="center" style="padding:20px" width="300">
       <br>
       <img src="https://github.com/TeoWenXi.png?size=200" width="100" height="100" style="border-radius:25%;" />
       <h3>Teo Wen Xi</h3>
@@ -195,7 +195,7 @@ Menu → Tutorial → Main Levels → Mid Cutscene → Boss Mode (AXIOM) → End
       <br>
     </td>
     <!--- Zephan --->
-    <td align="center" style="padding:20px" width=300>
+    <td align="center" style="padding:20px" width="300">
       <br>
       <img src="https://github.com/zephan2000.png?size=200" width="100" height="100" style="border-radius:25%;" />
       <h3>Zephan Wong</h3>
@@ -217,7 +217,7 @@ Menu → Tutorial → Main Levels → Mid Cutscene → Boss Mode (AXIOM) → End
       <br>
     </td>
     <!--- Jovan --->
-    <td align="center" style="padding:20px" width=300>
+    <td align="center" style="padding:20px" width="300">
       <br>
       <img src="https://github.com/JovanLowZhuoWen.png?size=200" width="100" height="100" style="border-radius:25%;" />
       <h3>Jovan Low</h3>
@@ -241,7 +241,7 @@ Menu → Tutorial → Main Levels → Mid Cutscene → Boss Mode (AXIOM) → End
   </tr>
   <tr>
     <!--- Li Heng --->
-    <td align="center" style="padding:20px" width=300>
+    <td align="center" style="padding:20px" width="300">
       <br>
       <img src="https://github.com/SilentflameX.png?size=200" width="100" height="100" style="border-radius:25%;" />
       <h3>Hear Li Heng</h3>
@@ -263,7 +263,7 @@ Menu → Tutorial → Main Levels → Mid Cutscene → Boss Mode (AXIOM) → End
       <br>
     </td>
     <!--- Xin Tian --->
-    <td align="center" style="padding:20px" width=300>
+    <td align="center" style="padding:20px" width="300">
       <br>
       <img src="https://github.com/xintian-sia.png?size=200" width="100" height="100" style="border-radius:25%;" />
       <h3>Xin Tian Sia</h3>
@@ -285,7 +285,7 @@ Menu → Tutorial → Main Levels → Mid Cutscene → Boss Mode (AXIOM) → End
       <br>
     </td>
     <!--- Wen Jin --->
-    <td align="center" style="padding:20px" width=300>
+    <td align="center" style="padding:20px" width="300">
       <br>
       <img src="https://github.com/ZsderDigipen.png?size=200" width="100" height="100" style="border-radius:25%;" />
       <h3>Wenjin Cai</h3>
@@ -307,7 +307,7 @@ Menu → Tutorial → Main Levels → Mid Cutscene → Boss Mode (AXIOM) → End
       <br>
     </td>
     <!--- Kang Zheng --->
-    <td align="center" style="padding:20px" width=300>
+    <td align="center" style="padding:20px" width="300">
       <br>
       <img src="https://github.com/TanKangZheng.png?size=200" width="100" height="100" style="border-radius:25%;" />
       <h3>Tan Kang Zheng</h3>
