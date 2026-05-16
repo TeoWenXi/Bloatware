@@ -3,7 +3,6 @@
   <img src="Readme_docs/Banner.gif" alt="Bloatware Banner" width="900"/>
 </p>
 
-
 <!-- Shields Icons -->
 <p align="center">
   <a href="https://www.digipen.edu.sg/showcase/student-games/bloatware">
@@ -41,10 +40,13 @@
 <br>
 
 ## 🎮 Gameplay Showcase
-<p align="center">
-  <img src="Readme_docs/Levels_1.gif" width="49%" style="border: 2px solid #30363d; border-radius: 10px;"/>
-  <img src="Readme_docs/Levels_2.gif" width="49%" style="border: 2px solid #30363d; border-radius: 10px;"/>
+<p>
+  <img src="Readme_docs/Levels_1.gif" width="49%" style="border: 2px solid #30363d; border-radius: 10px; float: left;"/>
+  <img src="Readme_docs/Levels_2.gif" width="49%" style="border: 2px solid #30363d; border-radius: 10px; float: right;"/>
 </p>
+
+<br>
+<br>
 
 <p align="center">
   <img src="Readme_docs/Levels_3.gif" width="99%" style="border: 2px solid #30363d; border-radius: 10px;"/>
@@ -67,6 +69,7 @@ BLOATWARE is organized into two main components: a **custom engine framework** a
 
 ### ⚙️ Custom Game Engine (Core Framework)
 Bloatware runs on a custom-built 2D engine developed in-house by the team.
+<br>
 👉 **Engine Source Code:** [View Custom Engine](./DeadByMidnight_CustomEngine/)
 
 It handles:
