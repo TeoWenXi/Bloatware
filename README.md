@@ -83,6 +83,8 @@ It handles:
 
 > The engine is designed as a reusable framework for 2D gameplay systems.
 
+<br>
+
 ### 🎮 Game (BLOATWARE Build Layer)
 The game layer is built on top of the engine and defines the actual playable experience. 
 
