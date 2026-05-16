@@ -324,5 +324,7 @@ Menu → Tutorial → Main Levels → Mid Cutscene → Boss Mode (AXIOM) → End
   </tr>
 </table>
 
+<br>
+
 ## 🏁 Credits
 Developed by **Dead By Midnight** as part of DigiPen coursework.
