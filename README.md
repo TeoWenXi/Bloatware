@@ -33,7 +33,7 @@
 <!-- Trailer -->
 <p align="center">
   <a href="https://www.youtube.com/watch?v=JPPYLP-RWhg">
-    <img src="Readme_docs/Video_Thumbnail.png" width="900"/>
+    <img src="Readme_docs/GameVideo_Thumbnail.png" width="900"/>
   </a>
 </p>
 
@@ -71,6 +71,11 @@ BLOATWARE is organized into two main components: a **custom engine framework** a
 Bloatware runs on a custom-built 2D engine developed in-house by the team.
 <br>
 👉 **Engine Source Code:** [View Custom Engine](./DeadByMidnight_CustomEngine/)
+
+### ▶️ Engine Showcase
+<a href="https://youtu.be/YAhNnFIgZpA">
+    <img src="Readme_docs/EngineVideo_Thumbnail.png" width="900"/>
+  </a>
 
 It handles:
 - Core game loop and scene management  
