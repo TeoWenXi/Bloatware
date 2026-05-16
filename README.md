@@ -66,7 +66,8 @@
 BLOATWARE is organized into two main components: a **custom engine framework** and the **game implementation layer** built on top of it.
 
 ### ⚙️ Custom Game Engine (Core Framework)
-The engine provides the foundational systems that power the entire game.
+Bloatware runs on a custom-built 2D engine developed in-house by the team.
+👉 **Engine Source Code:** [View Custom Engine](./DeadByMidnight_CustomEngine/)
 
 It handles:
 - Core game loop and scene management  

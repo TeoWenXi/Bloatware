@@ -3,40 +3,51 @@ By: Dead By Midnight
 
 Team Roster:
 
-CAI Wenjin (RTIS)
+Wenjin Cai
 Primary Role: Programmer
 Champion: Graphics
 
-SIM Mong Chuan (RTIS)
+Sim Mong Chuan
 Primary Role: Product Manager
 Secondary Role: Programmer
 Champion: Production, Debugging
 
-TEO Wen Xi (RTIS)
+Teo Wen Xi
 Primary Role: Technical Lead
 Champion: Engine
 
-HEAR Li Heng (IMGD)
+Hear Li Heng
 Primary Role: Programmer
 Champion: Level Design
 
-SIA Xin Tian (IMGD)
+Sia Xin Tian
 Primary Role: Programmer
 Champion: Physics
 
-TAN Kang Zheng (IMGD)
+Tan Kang Zheng
 Primary Role: Programmer
 Champion: Mechanics
 
-LOW Jovan Zhuo Wen (UXGD)
+Jovan Low
 Primary Role: Designer 
 Champion: Art VFX
 
-WONG Weng Kit, Zephan (UXGD)
+Zephan Wong
 Primary Role: Design Lead
 Secondary Role: Art Lead
 Champion: Game Music, Art UI Design
 
+--- Libraries used ---
+GLFW		Low level OpenGL window management with C API
+GLAD		OpenGL loading library
+GLM		OpenGL Math Library for graphics
+ImGUI		Editor to modify variables at runtime
+STB_Image	Loading images
+Freetype	Font loading and management
+RapidJSON	Serialization
+FMOD		Audio loading and management
+Mono		C# Runtime	
+Roslyn		C# Compiler
 
 
 --- Game Concept Synopsis ---
