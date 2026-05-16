@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  📦 Installer available in <b><a href="./Bloatware_Installer/">Bloatware_Installer</a></b> or on the 
+  📦 Installer available in <b><a href="https://github.com/TeoWenXi/Bloatware/releases/tag/v1.0">Releases</a></b> or on the 
   <b><a href="https://www.digipen.edu.sg/showcase/student-games/bloatware">official DigiPen page</a></b>
 </p>
 
@@ -38,6 +38,8 @@
   </a>
 </p>
 
+<br>
+
 ## 🎮 Gameplay Showcase
 <p align="center">
   <img src="Readme_docs/Levels_1.gif" width="49%" style="border: 2px solid #30363d; border-radius: 10px;"/>
@@ -48,6 +50,8 @@
   <img src="Readme_docs/Levels_3.gif" width="99%" style="border: 2px solid #30363d; border-radius: 10px;"/>
 </p>
 
+<br>
+
 ## ✨ Features
 - 🔄 Size-shifting physics gameplay
 - 🧠 Adaptive AI boss with Y-axis tracking attacks
@@ -55,6 +59,8 @@
 - 🧩 Key & door progression puzzles
 - 🌪 Wind tunnel mechanics (size-dependent interaction)
 - 🎭 Fully scripted narrative cutscenes + voiceover system
+
+<br>
 
 ## 🗂 Project Structure
 BLOATWARE is organized into two main components: a **custom engine framework** and the **game implementation layer** built on top of it.
@@ -85,9 +91,10 @@ It includes:
 
 > This layer represents the final playable build distributed to players.
 
-
 ### 🔗 Relationship
 The engine provides systems and infrastructure, while the game defines how those systems are used to create gameplay.
+
+<br>
 
 ## 🎮 Controls
 | Action | Keyboard | Controller |
@@ -99,11 +106,15 @@ The engine provides systems and infrastructure, while the game defines how those
 | Pause | Esc | — |
 | Restart | R | — |
 
+<br>
+
 **Cheats**
 - Skip Cutscene: O / Enter / Triangle
 - Skip Levels: 1 / L1
 - FPS Toggle: G
 - Fullscreen: Alt + Enter
+
+<br>
 
 ## ⚠️ Technical Notes
 - Best performance when plugged in
@@ -112,14 +123,20 @@ The engine provides systems and infrastructure, while the game defines how those
 - Boss fight uses adaptive laser cooldown system
 - Some cutscene pauses are intentional design
 
+<br>
+
 ## 🎬 Game Flow
 <b>Main progression loop</b>
 Menu → Tutorial → Main Levels → Mid Cutscene → Boss Mode (AXIOM) → Ending → Credits → Return
+
+<br>
 
 ## 🔊 Audio
 - Event-triggered voiceover system
 - Persistent BGM/SFX layers
 - Contextual audio tied to gameplay and death states
+
+<br>
 
 <!--- Members --->
 ## 👥 Team Members
@@ -127,10 +144,12 @@ Menu → Tutorial → Main Levels → Mid Cutscene → Boss Mode (AXIOM) → End
 <table>
   <tr>
     <!--- Mong Chuan --->
-    <td align="center" style="padding:20px" width=180>
+    <td align="center" style="padding:20px" width=300>
+      <br>
       <img src="https://github.com/mongchuan.png?size=200" width="100" height="100" style="border-radius:25%;" />
-      <div><strong>Sim Mong Chuan</strong></div>
-      <div style="font-size:12px; color:gray;">Project Manager <br/> Production Pipeline & Debugging </div>
+      <h3>Sim Mong Chuan</h3>
+      <div style="font-size:12px; color:gray;">Project Manager <br/> Production & Debugging </div>
+      <br>
       <div style="margin-top:6px;">
         <a href="https://www.linkedin.com/in/mong-chuan/" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg" 
@@ -144,12 +163,15 @@ Menu → Tutorial → Main Levels → Mid Cutscene → Boss Mode (AXIOM) → End
           @mongchuan
         </a>
       </div>
+      <br>
     </td>
     <!--- Wen Xi --->
-    <td align="center" style="padding:20px" width=180>
+    <td align="center" style="padding:20px" width=300>
+      <br>
       <img src="https://github.com/TeoWenXi.png?size=200" width="100" height="100" style="border-radius:25%;" />
-      <div><strong>Teo Wen Xi</strong></div>
+      <h3>Teo Wen Xi</h3>
       <div style="font-size:12px; color:gray;">Technical Lead <br/> Engine Systems </div>
+      <br>
       <div style="margin-top:6px;">
         <a href="https://www.linkedin.com/in/teowenxi/" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg" 
@@ -163,12 +185,15 @@ Menu → Tutorial → Main Levels → Mid Cutscene → Boss Mode (AXIOM) → End
           @TeoWenXi
         </a>
       </div>
+      <br>
     </td>
     <!--- Zephan --->
-    <td align="center" style="padding:20px" width=180>
+    <td align="center" style="padding:20px" width=300>
+      <br>
       <img src="https://github.com/zephan2000.png?size=200" width="100" height="100" style="border-radius:25%;" />
-      <div><strong>Zephan Wong</strong></div>
+      <h3>Zephan Wong</h3>
       <div style="font-size:12px; color:gray;">Art & Design Lead <br/> Audio Design & UI/UX </div>
+      <br>
       <div style="margin-top:6px;">
         <a href="https://www.linkedin.com/in/zephan-wong/" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg" 
@@ -182,12 +207,15 @@ Menu → Tutorial → Main Levels → Mid Cutscene → Boss Mode (AXIOM) → End
           @zephan2000
         </a>
       </div>
+      <br>
     </td>
     <!--- Jovan --->
-    <td align="center" style="padding:20px" width=180>
+    <td align="center" style="padding:20px" width=300>
+      <br>
       <img src="https://github.com/JovanLowZhuoWen.png?size=200" width="100" height="100" style="border-radius:25%;" />
-      <div><strong>Jovan Low</strong></div>
+      <h3>Jovan Low</h3>
       <div style="font-size:12px; color:gray;">Designer <br/> VFX & Technical Art </div>
+      <br>
       <div style="margin-top:6px;">
         <a href="https://www.linkedin.com/in/jovan-low-1b23542aa/" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg" 
@@ -201,14 +229,17 @@ Menu → Tutorial → Main Levels → Mid Cutscene → Boss Mode (AXIOM) → End
           @JovanLowZhuoWen
         </a>
       </div>
+      <br>
     </td>
   </tr>
   <tr>
     <!--- Li Heng --->
-    <td align="center" style="padding:20px" width=180>
+    <td align="center" style="padding:20px" width=300>
+      <br>
       <img src="https://github.com/SilentflameX.png?size=200" width="100" height="100" style="border-radius:25%;" />
-      <div><strong>Hear Li Heng</strong></div>
+      <h3>Hear Li Heng</h3>
       <div style="font-size:12px; color:gray;">Programmer <br/> Level Design Systems </div>
+      <br>
       <div style="margin-top:6px;">
         <a href="https://www.linkedin.com/in/hearliheng/" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg" 
@@ -222,12 +253,15 @@ Menu → Tutorial → Main Levels → Mid Cutscene → Boss Mode (AXIOM) → End
           @SilentflameX
         </a>
       </div>
+      <br>
     </td>
     <!--- Xin Tian --->
-    <td align="center" style="padding:20px" width=180>
+    <td align="center" style="padding:20px" width=300>
+      <br>
       <img src="https://github.com/xintian-sia.png?size=200" width="100" height="100" style="border-radius:25%;" />
-      <div><strong>Xin Tian Sia</strong></div>
+      <h3>Xin Tian Sia</h3>
       <div style="font-size:12px; color:gray;">Programmer <br/> Physics Systems </div>
+      <br>
       <div style="margin-top:6px;">
         <a href="https://www.linkedin.com/in/sia-xin-tian/" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg" 
@@ -241,12 +275,15 @@ Menu → Tutorial → Main Levels → Mid Cutscene → Boss Mode (AXIOM) → End
           @xintian-sia
         </a>
       </div>
+      <br>
     </td>
     <!--- Wen Jin --->
-    <td align="center" style="padding:20px" width=180>
+    <td align="center" style="padding:20px" width=300>
+      <br>
       <img src="https://github.com/ZsderDigipen.png?size=200" width="100" height="100" style="border-radius:25%;" />
-      <div><strong>Wenjin Cai</strong></div>
+      <h3>Wenjin Cai</h3>
       <div style="font-size:12px; color:gray;">Programmer <br/> Graphics Programming </div>
+      <br>
       <div style="margin-top:6px;">
         <a href="https://www.linkedin.com/in/wenjin-cai/" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg" 
@@ -260,12 +297,15 @@ Menu → Tutorial → Main Levels → Mid Cutscene → Boss Mode (AXIOM) → End
           @ZsderDigipen
         </a>
       </div>
+      <br>
     </td>
     <!--- Kang Zheng --->
-    <td align="center" style="padding:20px" width=180>
+    <td align="center" style="padding:20px" width=300>
+      <br>
       <img src="https://github.com/TanKangZheng.png?size=200" width="100" height="100" style="border-radius:25%;" />
-      <div><strong>Tan Kang Zheng</strong></div>
+      <h3>Tan Kang Zheng</h3>
       <div style="font-size:12px; color:gray;">Programmer <br/> Gameplay Mechanics </div>
+      <br>
       <div style="margin-top:6px;">
         <a href="https://www.linkedin.com/in/tankangzhengsit/" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg" 
@@ -279,6 +319,7 @@ Menu → Tutorial → Main Levels → Mid Cutscene → Boss Mode (AXIOM) → End
           @TanKangZheng
         </a>
       </div>
+      <br>
     </td>
   </tr>
 </table>
