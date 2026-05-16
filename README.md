@@ -40,14 +40,10 @@
 <br>
 
 ## 🎮 Gameplay Showcase
-<p>
-  <img src="Readme_docs/Levels_1.gif" width="49%" style="border: 2px solid #30363d; border-radius: 10px; float: left;"/>
-  <img src="Readme_docs/Levels_2.gif" width="49%" style="border: 2px solid #30363d; border-radius: 10px; float: right;"/>
+<p align="center">
+  <img src="Readme_docs/Levels_1.gif" width="49%" style="border: 2px solid #30363d; border-radius: 10px;"/>
+  <img src="Readme_docs/Levels_2.gif" width="49%" style="border: 2px solid #30363d; border-radius: 10px;"/>
 </p>
-
-<br>
-<br>
-
 <p align="center">
   <img src="Readme_docs/Levels_3.gif" width="99%" style="border: 2px solid #30363d; border-radius: 10px;"/>
 </p>
@@ -332,6 +328,8 @@ Menu → Tutorial → Main Levels → Mid Cutscene → Boss Mode (AXIOM) → End
     </td>
   </tr>
 </table>
+
+<br>
 
 ## 🏁 Credits
 Developed by **Dead By Midnight** as part of DigiPen coursework.
